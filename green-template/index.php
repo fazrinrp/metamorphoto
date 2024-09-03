@@ -9,6 +9,9 @@ $to = $_GET['to'] ?? 'Nama undangan';
 <html lang="en">
 
 <head>
+    <link rel="icon" href="../img/icon/mp-icon64.png" type="image/png" sizes="64x64" />
+    <link rel="icon" href="../img/icon/mp-icon128.png" type="image/png" sizes="128x128" />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wedding Invitation</title>

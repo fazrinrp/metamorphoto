@@ -7,7 +7,7 @@
   font-size: 1.1rem;
   font-weight: bold;
   color: white;
-  background-color: #385935;
+  background-color: #212529;
   border: none;
   border-radius: 8px; /* Soft rounded corners */
   cursor: pointer;
@@ -25,6 +25,21 @@
 
 body {
   background-color: #f8f4ef;
+  font-family: "Ovo", serif;
+}
+
+h1 {
+  font-family: "DM Serif Text", serif;
+}
+
+h3 {
+  font-family: "DM Serif Text", serif;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .navbar img {
@@ -37,6 +52,10 @@ body {
 
 .page-title {
   margin: 50px 0px;
+}
+
+.catalog {
+  text-align: center;
 }
 
 .grid-container {
@@ -66,5 +85,10 @@ body {
 @media (max-width: 768px) {
   .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .tombol {
+    padding: 12px 20px;
+    font-size: 90%;
   }
 }
