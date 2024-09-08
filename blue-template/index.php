@@ -22,7 +22,7 @@ $to = $_GET['to'] ?? 'Nama undangan';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <!--simplycountdown-->
-    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css?v=<?php echo time(); ?>" />
     <script src="countdown/simplyCountdown.min.js"></script>
 </head>
 
