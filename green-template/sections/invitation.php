@@ -5,7 +5,7 @@
         <div class="pop-up-img abbreviation">
             <img src="img/opening/wedding-logo.png" alt="" />
         </div>
-        <div class="pop-up-img">
+        <div class="pop-up-img qs-opening">
             <p>
                 "Dan di antara tanda-tanda kekuasaan-Nya diciptakan-Nya untukmu pasangan hidup dari jenismu
                 sendiri supaya kamu dapat ketenangan hati dan dijadikannya kasih sayang di antara kamu.

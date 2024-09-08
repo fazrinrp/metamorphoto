@@ -30,39 +30,6 @@
     transform: scale(1);
   }
 }
-
-@media (max-width: 768px) {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    font-size: 85%;
-  }
-
-  p,
-  a {
-    font-size: 90%;
-  }
-
-  .header h4,
-  h1 {
-    font-size: 80%;
-  }
-
-  .abbreviation {
-    width: 100px;
-  }
-
-  .pop-up-img {
-    padding-bottom: 50px;
-  }
-
-  .info {
-    font-size: 85%;
-  }
-}
-
 /* Initially hide the images */
 .pop-up-img {
   opacity: 0;
@@ -185,6 +152,9 @@ body {
 
 a {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
 }
 
 .lock-screen {
@@ -311,7 +281,6 @@ a {
   padding: 30px 0;
   font-size: 18px;
   color: #f8f4ef;
-  height: 60vh;
   position: relative; /* The container should have relative positioning */
   width: 100%;
 }
@@ -489,8 +458,7 @@ a {
   background-image: url("img/card.png");
   position: relative;
   text-align: center;
-  margin: 0 auto;
-  width: 430px;
+  margin: 0px 20px;
   margin-bottom: 90px;
 
   display: flex; /* Enable Flexbox */
@@ -681,7 +649,7 @@ a {
 }
 
 #hiddenContent {
-  padding: 20px;
+  padding: 20px 0px;
   margin-top: 10px;
 }
 
@@ -693,8 +661,7 @@ a {
   background-image: url(img/bg1.png);
   position: relative; /* Ensure the card is positioned relative to contain the text */
   text-align: center; /* Center-align text */
-  margin: 0 auto; /* Center the card in its container */
-  width: 430px;
+  margin: 0px 20px; /* Center the card in its container */
   height: 280px;
   margin-bottom: 30px;
 }
