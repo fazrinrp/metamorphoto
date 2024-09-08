@@ -50,7 +50,11 @@
     font-size: 80%;
   }
 
-  .invitation .pop-up-img {
+  .abbreviation {
+    width: 100px;
+  }
+
+  .pop-up-img {
     padding-bottom: 50px;
   }
 
