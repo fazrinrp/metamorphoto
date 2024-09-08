@@ -31,6 +31,18 @@
   }
 }
 
+@media (max-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  a {
+    font-size: 80%;
+  }
+}
+
 /* Initially hide the images */
 .pop-up-img {
   opacity: 0;
