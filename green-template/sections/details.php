@@ -3,7 +3,7 @@
     <img src="img/prop/8.png" class="zoom-rotate-image details-bottom-right" alt="Bottom Right Image" />
     <p>Acara pernikahan akan dilaksanakan pada:</p>
     <div class="pop-up-img card justify-content-center">
-        <img src="img/card.png" alt="" />
+        <!-- <img src="img/card.png" alt="" /> -->
         <h3>Akad Nikah</h3>
         <h4><?php echo $tanggal_akad_nikah ?></h4>
         <h4><?php echo $waktu_akad_nikah ?></h4>
@@ -13,7 +13,7 @@
     </div>
 
     <div class="pop-up-img card justify-content-center">
-        <img src="img/card.png" alt="" />
+        <!-- <img src="img/card.png" alt="" /> -->
         <h3>Resepsi</h3>
         <h4><?php echo $tanggal_resepsi ?></h4>
         <h4><?php echo $waktu_resepsi ?></h4>
