@@ -6,6 +6,20 @@
     margin: 0px 15px 50px 15px;
     font-size: 80%;
   }
+
+  .lock-screen-content {
+    margin-top: 100px;
+  }
+
+  .lock-container {
+    margin: 0px;
+    color: #515f92;
+  }
+
+  .lock-container h1,
+  h4 {
+    font-size: 90%;
+  }
 }
 
 .tombol {
@@ -51,6 +65,19 @@ a {
   text-decoration: none;
 }
 
+.header-top-left,
+.header-bottom-right {
+  position: absolute;
+  z-index: 1; /* Lower z-index to move behind the content */
+}
+
+.lock-screen-content {
+  margin-top: 180px;
+  padding: 150px 0px; /* Add more padding on top */
+  position: relative;
+  z-index: 9999; /* Keep this higher to stay on top of the images */
+}
+
 .lock-screen {
   padding: 0 !important;
   max-width: 520px !important;
@@ -63,14 +90,15 @@ a {
   background-repeat: no-repeat;
   position: relative;
   height: 100vh;
-}
 
-.lock-screen-content {
-  padding: 200px 0px;
+  /* Flexbox for centering content */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
 }
 
 .lock-container {
-  margin: 100px 0px;
+  margin: 0;
   color: #515f92;
 }
 
@@ -83,9 +111,6 @@ a {
 
 .lock-container h4 {
   font-family: "cormorant-garamond-light", serif;
-}
-
-.lock-container h4 {
   margin: 10px 0px;
   text-transform: uppercase;
   letter-spacing: 3px;
