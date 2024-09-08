@@ -23,6 +23,19 @@
   src: url("../font/march/march.ttf") format("truetype");
 }
 
+@media (max-width: 768px) {
+  .simply-countdown > .simply-section {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    opacity: 1;
+  }
+}
+
 .simply-countdown {
   overflow: hidden;
   display: table;
@@ -34,7 +47,7 @@
 .simply-countdown > .simply-section {
   width: 30px;
   height: 30px;
-  padding: 30px;
+  padding: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
