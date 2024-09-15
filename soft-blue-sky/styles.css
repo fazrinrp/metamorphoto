@@ -11,6 +11,17 @@
   h4 {
     font-size: 90%;
   }
+
+  .opening {
+    font-size: 90%;
+  }
+  .opening img {
+    width: 80%;
+  }
+
+  .info p {
+    font-size: 50%;
+  }
 }
 
 .tombol {
@@ -139,7 +150,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 200px;
+  width: 40%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -148,7 +159,7 @@ a {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 200px;
+  width: 40%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -194,7 +205,6 @@ a {
   padding: 30px 0;
   font-size: 18px;
   color: #f8f4ef;
-  height: 60vh;
   position: relative; /* The container should have relative positioning */
   width: 100%;
 }
@@ -208,7 +218,7 @@ a {
   position: relative; /* Allows z-index to work */
   z-index: 2; /* Ensure text is in front of images */
   padding: 20px; /* Optional: Add padding to position text */
-  margin: 50px 0px;
+  margin: 0;
 }
 
 .abbreviation img {
@@ -227,20 +237,20 @@ a {
 }
 
 .info-top-left {
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   top: 10;
   left: 0;
-  width: 130px;
+  width: 35%;
   margin: 0; /* Remove margin if not needed */
 }
 
 .info-bottom-right {
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 200px;
+  width: 45%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -315,7 +325,7 @@ a {
   position: absolute;
   top: 120px;
   left: 0;
-  width: 230px;
+  width: 45%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -323,7 +333,7 @@ a {
   position: absolute;
   bottom: 150px;
   right: 0;
-  width: 200px;
+  width: 45%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -399,7 +409,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 185px;
+  width: 50%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -407,7 +417,7 @@ a {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 210px;
+  width: 50%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -487,7 +497,7 @@ a {
   position: absolute;
   top: 30px;
   left: 0;
-  width: 200px;
+  width: 50%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -505,7 +515,7 @@ a {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 300px;
+  width: 70%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -591,7 +601,7 @@ a {
   position: absolute;
   top: 50px;
   left: 0;
-  width: 180px;
+  width: 40%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -663,7 +673,7 @@ textarea {
   position: absolute;
   top: 100px;
   right: 0;
-  width: 100px;
+  width: 30%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -671,7 +681,7 @@ textarea {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 180px;
+  width: 45%;
   margin: 0; /* Remove margin if not needed */
 }
 
