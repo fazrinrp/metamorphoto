@@ -172,7 +172,7 @@ a {
 }
 
 .lock-container {
-  margin: 100px 0px;
+  margin-top: 17vh;
 }
 
 .lock-container h1 {
@@ -196,7 +196,9 @@ a {
 }
 
 .invite-to {
-  margin-top: 120px;
+  z-index: 999;
+  position: relative;
+  margin-top: 12vh;
 }
 
 .invite-to p {
@@ -223,20 +225,20 @@ a {
 }
 
 .header-top-left {
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 70%;
   margin: 0; /* Remove margin if not needed */
 }
 
 .header-bottom-right {
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 350px;
+  width: 70%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -306,7 +308,7 @@ a {
   position: absolute;
   top: 40px;
   left: 0;
-  width: 250px;
+  width: 60%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -315,7 +317,7 @@ a {
   position: absolute;
   bottom: 40px;
   right: 0;
-  width: 250px;
+  width: 60%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -335,7 +337,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 350px;
+  width: 70%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -344,7 +346,7 @@ a {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 300px;
+  width: 75%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -353,7 +355,7 @@ a {
   position: absolute;
   top: 350px;
   right: 0;
-  width: 120px;
+  width: 30%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -362,7 +364,7 @@ a {
   position: absolute;
   top: 950px;
   left: 0;
-  width: 100px;
+  width: 25%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -516,7 +518,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 370px;
+  width: 80%;
   margin: 0; /* Remove margin if not needed */
 }
 
@@ -524,7 +526,7 @@ a {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 300px;
+  width: 70%;
   margin: 0; /* Remove margin if not needed */
 }
 

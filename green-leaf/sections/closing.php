@@ -1,7 +1,7 @@
 <section class="closing">
     <img src="img/prop/3.png" class="zoom-rotate-image closing-top-left" alt="Top Left Image" />
     <img src="img/prop/9.png" class="zoom-rotate-image closing-bottom-right" alt="Bottom Right Image" />
-    <div class="pop-up-img closing-image">
+    <div class="pop-up-img landscape">
         <img src="img/closing/closing-img.jpeg" />
     </div>
     <div class="pop-up-img closing-text">
