@@ -1,0 +1,686 @@
+@import url("styles/fonts.css");
+@import url("styles/image-animations.css");
+
+@media (max-width: 768px) {
+  .countdown {
+    margin: 0px 15px 50px 15px;
+    font-size: 80%;
+  }
+
+  .lock-screen-content {
+    margin-top: 20px;
+  }
+
+  .lock-container {
+    margin: 0px;
+    color: #f4f4f4;
+  }
+
+  .lock-container h1,
+  h4 {
+    font-size: 90%;
+  }
+}
+
+.tombol {
+  font-family: "cormorant-garamond-bold", serif;
+  position: relative;
+  z-index: 9999; /* Ensure it's on top */
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #9f7a66;
+  border: none;
+  border-radius: 8px; /* Soft rounded corners */
+  cursor: pointer;
+  text-align: center; /* Center the text inside the button */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tombol:hover {
+  background-color: #fabd00; /* Change color on hover */
+}
+
+.tombol:active {
+  transform: scale(0.95); /* Slightly shrink when clicked */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "lancelot", serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-family: "higuen-serif", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.and {
+  font-size: 45px;
+  vertical-align: top;
+}
+
+.lock-screen {
+  padding: 0 !important;
+  max-width: 520px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+
+  /* Flexbox for centering content */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+}
+
+.lock-screen::before {
+  content: "";
+  background-image: url(img/background-images/background-cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Apply filters for blur and brightness */
+  filter: brightness(70%); /* Adjust values as needed */
+
+  /* Ensure the pseudo-element covers the entire screen */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.lock-screen-content {
+  margin-top: 15vh;
+  position: relative;
+  z-index: 2; /* Content stays on top of the blurred background */
+}
+
+.lock-container {
+  margin: 0;
+  color: #f4f4f4;
+}
+
+.lock-container h1 {
+  font-family: "higuen-serif";
+  margin: 10px 0px;
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.lock-container h4 {
+  font-family: "kenao", serif;
+  margin: 20px 0px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 21px;
+}
+
+.invite-to {
+  margin-top: 26vh;
+  font-size: 18px;
+}
+
+.invite-to p {
+  margin: 10px;
+}
+
+.container {
+  padding: 0 !important;
+  max-width: 520px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  overflow: hidden;
+}
+
+/* Header */
+.header {
+  color: #f4f4f4;
+  padding-top: 80px;
+  height: 90vh;
+  position: relative;
+  overflow: hidden; /* Ensure pseudo-element doesn't overflow */
+}
+
+.header::before {
+  content: "";
+  background-image: url(img/background-images/background-cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Apply blur and brightness */
+  filter: brightness(0.7); /* Adjust values as needed */
+
+  /* Ensure the pseudo-element covers the entire header section */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.header-content {
+  margin-top: 8vh;
+  position: relative;
+  z-index: 2; /* Keep content on top of the blurred background */
+}
+
+.header h1 {
+  font-family: "higuen-serif";
+  margin: 10px 0px;
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.header h4 {
+  font-family: "kenao", serif;
+  margin: 25px 0px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.nama-undangan {
+  margin-top: 100px;
+}
+
+.header p {
+  margin-top: 0 !important;
+}
+
+/* Invitation Section */
+.invitation {
+  background-image: url(img/background-images/bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 0px 40px 0px;
+  font-size: 18px;
+  color: #f8f4ef;
+  height: 60vh;
+  position: relative; /* The container should have relative positioning */
+  width: 100%;
+  font-family: "lancelot";
+}
+
+.invitation h4 {
+  font-size: 24px;
+}
+
+.invitation strong {
+  font-size: 20px;
+  color: #333;
+}
+
+.opening {
+  position: relative; /* Allows z-index to work */
+  z-index: 2; /* Ensure text is in front of images */
+  padding: 20px; /* Optional: Add padding to position text */
+  margin: 50px 0px;
+}
+
+.abbreviation img {
+  width: 180px;
+}
+
+.info {
+  padding: 0px 0px 100px 0px; /* Add padding if needed */
+  color: #f8f4ef;
+  position: relative;
+  overflow: hidden;
+}
+
+.info::before {
+  content: "";
+  background-image: url(img/background-images/background-info.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Apply blur and brightness */
+  filter: blur(2.5px) brightness(0.7); /* Adjust values as needed */
+
+  /* Ensure the pseudo-element covers the entire header section */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.bismillah {
+  width: 250px;
+  margin: 100px 0px 50px 0px;
+}
+
+.info p {
+  font-family: "lancelot";
+  line-height: 1.5;
+  font-size: 20px;
+  margin: 0px 40px 0px 40px; /* Add margin-bottom to create space for the image */
+}
+
+.mempelai h1 {
+  font-family: "higuen-serif";
+  margin: 20px 0px 0px 0px;
+  font-size: 50px;
+}
+
+.mempelai h2 {
+  font-family: "higuen-serif";
+  margin: 10px 0px 0px 0px;
+  font-size: 30px;
+}
+
+.mempelai h4 {
+  margin: 25px 0px 0px 0px;
+  font-size: 22px;
+  font-family: "lancelot";
+}
+
+.mempelai {
+  margin: 50px 0px 0px 0px;
+  text-align: center; /* Center-align text and image */
+  position: relative;
+  z-index: 9999;
+}
+
+.instagram {
+  margin: 30px 0px 0px 0px;
+}
+
+.instagram img {
+  width: 60px;
+}
+
+.round-image {
+  /* Make the image round */
+  width: 250px; /* Set the width of the round image */
+  height: 350px; /* Set the height of the round image */
+  object-fit: cover; /* Ensure the image covers the circle */
+  margin-top: 20px; /* Space between the paragraph and the image */
+}
+
+/* Wedding Details */
+.details {
+  padding: 30px 0; /* Ensure consistent padding */
+  background-image: url(img/background-images/bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 18px;
+  color: #f8f4ef;
+  position: relative; /* The container should have relative positioning */
+  width: 100%;
+}
+
+.details p {
+  margin: 30px 40px 80px 40px; /* Adjust margin for spacing */
+  font-size: 24px;
+  line-height: 2;
+  font-family: "lancelot";
+}
+
+.card {
+  background-color: rgba(148, 148, 148, 0.4); /* White with 50% transparency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow with slight transparency */
+  position: relative;
+  text-align: center;
+  margin: 0px 20px;
+  margin-bottom: 90px;
+
+  display: flex; /* Enable Flexbox */
+  flex-direction: column; /* Align items in a column */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  height: 100%; /* Ensure the card takes up full height */
+}
+
+.card h3,
+.card h4,
+.card h5,
+.maps {
+  font-family: "lancelot";
+  color: #f8f4ef; /* Ensure text is visible on the image */
+  font-size: 21px;
+  margin: 8px 0px;
+}
+
+.card h3 {
+  font-family: "higuen-serif", serif;
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.card h5 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.maps {
+  margin-bottom: 30px;
+}
+
+.countdown {
+  margin: 0px 20px 80px 20px;
+}
+
+.countdown h3 {
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+.gallery {
+  padding: 50px 0px 100px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery::before {
+  content: "";
+  background-image: url(img/background-images/background-gallery.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Apply blur and brightness */
+  filter: blur(2.5px) brightness(0.7); /* Adjust values as needed */
+
+  /* Ensure the pseudo-element covers the entire header section */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.gallery h2 {
+  font-family: "higuen-serif", serif;
+  font-size: 56px;
+  color: #f4f4f4;
+}
+
+.two-column-portraits {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
+  gap: 20px; /* Space between the columns */
+  width: 90%; /* Full width container */
+  margin: 0 auto; /* Center the container */
+}
+
+.portrait img {
+  width: 100%; /* Make the image take the full width of the column */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover; /* Ensures the image covers the entire area of the div */
+}
+
+.single-column-landscapes {
+  display: flex;
+  flex-direction: column; /* Stack the images vertically */
+  gap: 20px; /* Space between the rows */
+  width: 100%; /* Full width container */
+  margin: 0 auto; /* Center the container */
+}
+
+.landscape img {
+  width: 90%; /* Make the image take the full width of the container */
+  height: 250px; /* Maintain the aspect ratio */
+  object-fit: cover; /* Ensures the image covers the entire area of the div */
+}
+
+.gallery2 {
+  margin-top: 20px;
+}
+
+.gallery3 {
+  margin-top: 20px;
+}
+
+.gallery-top-left,
+.gallery-bottom-right {
+  z-index: 0; /* Lower z-index to push behind other elements */
+  position: absolute;
+}
+
+.portrait img,
+.landscape img {
+  z-index: 2; /* Higher z-index for the gallery images to be in front */
+  position: relative; /* Ensure they are on top of the frame */
+}
+
+.invitation,
+.gallery1,
+.gallery2,
+.gallery3 {
+  position: relative; /* Ensure proper stacking of content */
+  z-index: 1; /* Higher than the background frames */
+}
+
+.gift {
+  background-image: url(img/background-images/bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0px 100px 0px;
+  position: relative;
+}
+
+.gift h2 {
+  font-size: 56px;
+  color: #f8f4ef;
+}
+
+.gift p {
+  padding: 0px 30px 0px 30px;
+  font-size: 21px;
+  color: #f8f4ef;
+  position: relative;
+}
+
+.gift-button {
+  margin-top: 50px;
+  background-color: #f8f4ef;
+  color: #39281f;
+}
+
+.hidden {
+  display: none; /* Initially hide the div */
+}
+
+#hiddenContent {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#hiddenText {
+  display: none; /* Hide the input field */
+}
+
+.giftcard {
+  background-color: rgba(148, 148, 148, 0.4); /* White with 50% transparency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative; /* Ensure the card is positioned relative to contain the text */
+  text-align: center; /* Center-align text */
+  margin: 0 auto; /* Center the card in its container */
+  width: 90%;
+  height: 280px;
+  margin-bottom: 30px;
+}
+
+.giftcard img {
+  margin: 20px auto;
+  width: 50%;
+}
+
+.giftcard h5,
+.giftcard .copy {
+  position: absolute; /* Position text absolutely within the card */
+  color: #f4f4f4; /* Ensure text is visible on the image */
+  left: 50%;
+  transform: translateX(-50%); /* Center text horizontally */
+  font-size: 21px;
+}
+
+.giftcard h5 {
+  letter-spacing: 2px;
+  line-height: 1.4;
+  width: 350px;
+  top: 70px; /* Position near the bottom of the image */
+}
+
+.giftcard .copy {
+  margin-top: 20px;
+  bottom: 25px;
+}
+
+.wishes {
+  padding: 50px 0px;
+  position: relative;
+  overflow: hidden;
+  color: #f8f4ef;
+}
+
+.wishes::before {
+  content: "";
+  background-image: url(img/background-images/background-cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Apply blur and brightness */
+  filter: brightness(0.7); /* Adjust values as needed */
+
+  /* Ensure the pseudo-element covers the entire header section */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.best-wishes {
+  z-index: 2; /* Higher z-index for the gallery images to be in front */
+  position: relative; /* Ensure they are on top of the frame */
+}
+
+.wishes h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 56px;
+}
+
+.wishes p {
+  padding: 0px 40px;
+  font-size: 21px;
+  position: relative;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; /* Ensures label is above input */
+  margin-bottom: 15px; /* Adds space between form fields */
+}
+
+.wish-card label {
+  font-family: "cormorant-garamond-bold";
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+.wish-card button {
+  margin: 20px 0px;
+}
+
+label {
+  margin-bottom: 5px; /* Adds space between label and input */
+}
+
+textarea {
+  resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
+.form-control {
+  margin: 0px 50px;
+  font-size: 18px; /* Adjust the size as needed */
+  padding: 10px; /* Optional: Adds padding to make the input fields look larger */ /* Optional: Makes the fields full width */
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.2); /* 20% opacity */
+  color: #fff; /* Ensure the text is visible */
+  border: 1px solid #ccc; /* Allows the user to resize the textarea vertically */
+}
+
+.closing {
+  background-image: url(img/background-images/bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.closing-image,
+.closing-text {
+  z-index: 2; /* Higher z-index for the gallery images to be in front */
+  position: relative; /* Ensure they are on top of the frame */
+}
+
+.closing-text {
+  font-size: 20px;
+  color: #f8f4ef;
+  margin: 0px 30px 0px 30px;
+}
+
+.closing-text h3 {
+  font-family: "higuen-serif";
+  font-size: 38px;
+}
+
+.closing-img {
+  background-image: url("img/closing/closing-img.jpg");
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  font-size: 16px;
+  background-color: #262626;
+  color: #e0e0e0;
+  padding: 60px 0px 30px 0px;
+}
+
+.social-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Adjusts space between logos */
+}
+
+.footer-social-logo {
+  width: 40px; /* Adjust size as needed */
+  height: auto;
+  padding: 20px 30px;
+}
