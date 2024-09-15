@@ -7,15 +7,6 @@
     font-size: 80%;
   }
 
-  .lock-screen-content {
-    margin-top: 20px;
-  }
-
-  .lock-container {
-    margin: 0px;
-    color: #515f92;
-  }
-
   .lock-container h1,
   h4 {
     font-size: 90%;
@@ -72,8 +63,7 @@ a {
 }
 
 .lock-screen-content {
-  margin-top: 180px;
-  padding: 150px 0px; /* Add more padding on top */
+  margin-top: 35vh;
   position: relative;
   z-index: 9999; /* Keep this higher to stay on top of the images */
 }
