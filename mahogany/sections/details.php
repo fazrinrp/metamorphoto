@@ -21,7 +21,7 @@
     </div>
 
     <div class="pop-up-img countdown">
-        <h3>MENUJU HARI BAHAGIA</h3>
+        <h3>SAVE THE DATE</h3>
         <div class="simply-countdown mt-5"></div>
     </div>
 </section>
