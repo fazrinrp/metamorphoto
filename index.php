@@ -46,22 +46,22 @@
             <div class="grid-item">
                 <img src="img/template-blue.png" alt="Blue Template" />
                 <h3>Soft Blue Sky</h3>
-                <a class="tombol" href="soft-blue-sky/index.php" target="_blank">Lihat Contoh</a>
+                <a class="tombol" href="soft-blue-sky/" target="_blank">Lihat Contoh</a>
             </div>
             <div class="grid-item">
                 <img src="img/template-green.png" alt="Green Template" />
                 <h3>Green Leaf</h3>
-                <a class="tombol" href="green-leaf/index.php" target="_blank">Lihat Contoh</a>
+                <a class="tombol" href="green-leaf/" target="_blank">Lihat Contoh</a>
             </div>
             <div class="grid-item">
                 <img src="img/template-mahogany.png" alt="Mahogany Template" />
                 <h3>Mahogany</h3>
-                <a class="tombol" href="mahogany/index.php">Lihat Contoh</a>
+                <a class="tombol" href="mahogany/">Lihat Contoh</a>
             </div>
             <div class="grid-item">
-                <img src="img/template-phone.png" alt="Phone Template" />
-                <h3>Coming Soon</h3>
-                <a class="tombol" href="#">Lihat Contoh</a>
+                <img src="img/pink-roses.png" alt="Pink Roses Template" />
+                <h3>Pink Roses</h3>
+                <a class="tombol" href="pink-roses/">Lihat Contoh</a>
             </div>
         </div>
     </section>
