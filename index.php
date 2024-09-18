@@ -56,12 +56,12 @@
             <div class="grid-item">
                 <img src="img/template-mahogany.png" alt="Mahogany Template" />
                 <h3>Mahogany</h3>
-                <a class="tombol" href="mahogany/">Lihat Contoh</a>
+                <a class="tombol" href="mahogany/" target="_blank">Lihat Contoh</a>
             </div>
             <div class="grid-item">
                 <img src="img/pink-roses.png" alt="Pink Roses Template" />
                 <h3>Pink Roses</h3>
-                <a class="tombol" href="pink-roses/">Lihat Contoh</a>
+                <a class="tombol" href="pink-roses/" target="_blank">Lihat Contoh</a>
             </div>
         </div>
     </section>
