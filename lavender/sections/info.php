@@ -17,7 +17,8 @@
             <?php echo $mempelai_wanita_ibu ?></h4>
         <div class="pop-up-img instagram">
             <a class="tombol" href="<?php echo $mempelai_wanita_instagram ?>" target="_blank"><img class="icon"
-                    src="img/instagram-icon.png" alt="">@username</a>
+                    src="img/instagram-icon.png" alt="">@<?php echo $mempelai_wanita_instagram_username ?>
+            </a>
         </div>
     </div>
 
@@ -29,7 +30,7 @@
             <?php echo $mempelai_pria_ibu ?></h4>
         <div class="pop-up-img instagram">
             <a class="tombol" href="<?php echo $mempelai_wanita_instagram ?>" target="_blank"><img class="icon"
-                    src="img/instagram-icon.png" alt="">@username</a>
+                    src="img/instagram-icon.png" alt="">@<?php echo $mempelai_wanita_instagram_username ?></a>
         </div>
     </div>
 </section>

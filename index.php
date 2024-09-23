@@ -44,9 +44,9 @@
         <h1>Katalog Undangan Digital</h1>
         <div class="grid-container">
             <div class="grid-item">
-                <img src="img/template-blue.png" alt="Blue Template" />
-                <h3>Soft Blue Sky</h3>
-                <a class="tombol" href="soft-blue-sky/" target="_blank">Lihat Contoh</a>
+                <img src="img/lavender.png" alt="Lavender Template" />
+                <h3>Lavender</h3>
+                <a class="tombol" href="lavender/" target="_blank">Lihat Contoh</a>
             </div>
             <div class="grid-item">
                 <img src="img/template-green.png" alt="Green Template" />
@@ -57,6 +57,11 @@
                 <img src="img/template-mahogany.png" alt="Mahogany Template" />
                 <h3>Mahogany</h3>
                 <a class="tombol" href="mahogany/" target="_blank">Lihat Contoh</a>
+            </div>
+            <div class="grid-item">
+                <img src="img/template-blue.png" alt="Blue Template" />
+                <h3>Soft Blue Sky</h3>
+                <a class="tombol" href="soft-blue-sky/" target="_blank">Lihat Contoh</a>
             </div>
             <div class="grid-item">
                 <img src="img/pink-roses.png" alt="Pink Roses Template" />
