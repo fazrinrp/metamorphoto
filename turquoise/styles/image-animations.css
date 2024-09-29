@@ -54,11 +54,8 @@
 /* Apply the animation to the image */
 .zoom-image {
   z-index: -1;
-  animation-play-state: paused; /* Initially pause the animation */
-}
-
-.zoom-image.in-view {
-  animation-play-state: running; /* Resume the animation when in view */
+  animation: zoomInOut 4s ease-in-out infinite; /* 4 seconds duration, smooth easing, infinite loop */
+  transition: transform 0.5s ease-in-out; /* Smooth transitions */
 }
 
 @keyframes zoomInOutCenter {
@@ -75,11 +72,8 @@
 
 .zoom-image-center {
   z-index: -1;
-  animation-play-state: paused; /* Initially pause the animation */
-}
-
-.zoom-image-center.in-view {
-  animation-play-state: running; /* Resume the animation when in view */
+  animation: zoomInOutCenter 4s ease-in-out infinite; /* 4 seconds duration, smooth easing, infinite loop */
+  transition: transform 0.5s ease-in-out; /* Smooth transitions */
 }
 
 @keyframes zoomMove {
@@ -114,12 +108,7 @@
 
 /* Apply the animation to the image */
 .zoom-rotate-image {
-  animation-play-state: paused; /* Initially pause the animation */
-}
-
-.zoom-rotate-image.in-view {
-  animation-play-state: running; /* Resume the animation when in view */
+  animation: zoomRotate 6s ease-in-out infinite; /* 6 seconds duration, smooth easing, infinite loop */
   transform-origin: center center; /* Ensure zoom and rotation happen from the center */
   transition: transform 0.5s ease-in-out; /* Smooth transitions */
 }
-

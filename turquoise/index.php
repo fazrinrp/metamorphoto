@@ -29,6 +29,7 @@ $to = $_GET['to'] ?? 'Nama undangan';
 <body>
     <div class="lock-screen" id="lockScreen">
         <div class="lock-container">
+            <img class="lock-screen-img" src="img/header/header.png" alt="">
             <img src="img/prop/1.png" class="zoom-image header-top-left" alt="Top Left Image" />
             <img src="img/prop/2.png" class="zoom-image header-bottom-right" alt="Bottom Right Image" />
             <div class="lock-screen-content">
