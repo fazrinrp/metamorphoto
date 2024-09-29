@@ -53,25 +53,25 @@
                 <img src="img/template-green.png" alt="Green Template" />
                 <h3>Green Leaf</h3>
                 <a class="tombol" href="green-leaf/" target="_blank">Lihat Contoh</a>
-                <a class="tombol" href="dm.wa.link/8jbhy2" target="_blank">Pesan Sekarang</a>
+                <a class="tombol" href="https://dm.wa.link/8jbhy2" target="_blank">Pesan Sekarang</a>
             </div>
             <div class="grid-item">
                 <img src="img/template-mahogany.png" alt="Mahogany Template" />
                 <h3>Mahogany</h3>
                 <a class="tombol" href="mahogany/" target="_blank">Lihat Contoh</a>
-                <a class="tombol" href="dm.wa.link/8jbhy2" target="_blank">Pesan Sekarang</a>
+                <a class="tombol" href="https://dm.wa.link/8jbhy2" target="_blank">Pesan Sekarang</a>
             </div>
             <div class="grid-item">
                 <img src="img/template-blue.png" alt="Blue Template" />
                 <h3>Soft Blue Sky</h3>
                 <a class="tombol" href="soft-blue-sky/" target="_blank">Lihat Contoh</a>
-                <a class="tombol" href="dm.wa.link/8jbhy2" target="_blank">Pesan Sekarang</a>
+                <a class="tombol" href="dhttps://dm.wa.link/8jbhy2" target="_blank">Pesan Sekarang</a>
             </div>
             <div class="grid-item">
                 <img src="img/pink-roses.png" alt="Pink Roses Template" />
                 <h3>Pink Roses</h3>
                 <a class="tombol" href="pink-roses/" target="_blank">Lihat Contoh</a>
-                <a class="tombol" href="dm.wa.link/8jbhy2" target="_blank">Pesan Sekarang</a>
+                <a class="tombol" href="https://dm.wa.link/8jbhy2" target="_blank">Pesan Sekarang</a>
             </div>
         </div>
     </section>
