@@ -2,7 +2,7 @@
     <img src="img/prop/11.png" class="zoom-rotate-image closing-top-right" alt="Top Left Image" />
     <img src="img/prop/12.png" class="zoom-rotate-image closing-bottom-left" alt="Bottom Right Image" />
     <div class="pop-up-img closing-image">
-        <img src="img/closing/closing-img.jpg" />
+        <img src="img/closing/closing-img.JPG" />
     </div>
     <div class="pop-up-img closing-text">
         <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir
