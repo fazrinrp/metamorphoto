@@ -8,7 +8,7 @@
         Bapak/Ibu/Saudara/i
         untuk menghadiri pernikahan putra-putri kami:</p>
     <div class="mempelai row justify-content-center">
-        <img src="img/info/mempelai-wanita.JPG" class="pop-up-img round-image" alt="Round Image" />
+        <img src="img/info/mempelai-wanita.jpg" class="pop-up-img round-image" alt="Round Image" />
         <h1 class="pop-up-img"><?php echo $mempelai_wanita ?></h1>
         <h2 class="pop-up-img"><?php echo $mempelai_wanita_long ?></h2>
         <h4 class="pop-up-img">Putri dari<br />Bapak <?php echo $mempelai_wanita_bapak ?> & Ibu
