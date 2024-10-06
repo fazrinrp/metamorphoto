@@ -29,9 +29,18 @@ $to = $_GET['to'] ?? 'Nama undangan';
 <body>
     <div class="lock-screen" id="lockScreen">
         <div class="lock-container">
-            <img class="lock-screen-img" src="img/header/header.png" alt="">
-            <img src="img/prop/1.png" class="zoom-image header-top-left" alt="Top Left Image" />
-            <img src="img/prop/2.png" class="zoom-image header-bottom-right" alt="Bottom Right Image" />
+            <img class="header-img" src="img/header/header.png" alt="">
+            <img class="header-top zoom-inout-x" src="img/main-prop/prop-7.png" alt="">
+            <img class="header-bottom zoom-inout-x" src="img/main-prop/prop-8.png" alt="">
+
+            <img class="header-flower-top pop-up-x" src="img/header-prop/prop-4.png" alt="">
+            <img class="header-flower-top pop-up-x" src="img/header-prop/prop-3.png" alt="">
+            <img class="header-flower-top pop-up-x" src="img/header-prop/prop-2.png" alt="">
+            <img class="header-flower-top pop-up-x" src="img/header-prop/prop-1.png" alt="">
+
+            <img class="header-flower-bottom-2 pop-up-x" src="img/main-prop/prop-2.png" alt="">
+            <img class="header-flower-bottom pop-up-x" src="img/main-prop/prop-4.png" alt="">
+
             <div class="lock-screen-content">
                 <h4 class="pop-up-img">The Wedding of</h4>
                 <h1 class="pop-up-img">
@@ -59,7 +68,11 @@ $to = $_GET['to'] ?? 'Nama undangan';
         <?php include("sections/gift.php") ?>
         <?php include("sections/wishes.php") ?>
         <?php include("sections/closing.php") ?>
+        <section class="closing2">
+            <div class="closing-img">
 
+            </div>
+        </section>
         <?php include("../section-general/footer.php") ?>
     </div>
 </body>

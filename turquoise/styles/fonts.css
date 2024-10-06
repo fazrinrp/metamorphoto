@@ -1,6 +1,4 @@
 @font-face {
-  font-family: "eyesome-script";
-  src: url("../font/eyesome-script/eyesome-script.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+  font-family: "parisienne";
+  src: url("../font/parisienne/parisienne.ttf") format("truetype");
 }

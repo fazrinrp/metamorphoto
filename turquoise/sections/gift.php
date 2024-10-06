@@ -1,6 +1,4 @@
 <section class="gift">
-    <img src="img/prop/1.png" class="zoom-image gift-top-right" alt="Top Left Image" />
-
     <div>
         <h2 class="pop-up-img">Gift</h2>
         <p class="pop-up-img">Kehadiran anda merupakan hadiah terbaik yang bisa kami harapkan. Namun jika
@@ -10,12 +8,11 @@
     <a class="tombol gift-button" href="#" id="toggleDiv">Ketuk untuk memberi hadiah</a>
 
     <div id="hiddenContent" class="hidden">
-        <img src="img/prop/2.png" class="zoom-image gift-bottom-left" alt="Bottom Right Image" />
         <div class="pop-up-img giftcard justify-content-center">
             <img class="bank" src="img/logo-bank/bank-mandiri.png" alt="" />
             <h5>
                 <?php echo $no_rek_bank1 ?><br />
-                a.n. <?php echo $an_rek_bank1 ?>
+                atas nama <br /><?php echo $an_rek_bank1 ?>
             </h5>
             <div class="copy"><button class="tombol" onclick="copyBank1()">Salin</button></div>
         </div>
@@ -24,11 +21,9 @@
             <img class="bank" src="img/logo-bank/bank-bca.png" alt="" />
             <h5>
                 <?php echo $no_rek_bank2 ?> <br />
-                a.n. <?php echo $an_rek_bank2 ?>
+                atas nama <br /><?php echo $an_rek_bank2 ?>
             </h5>
-            <div class="copy">
-                <button class="tombol" onclick="copyBank2()">Salin</button>
-            </div>
+            <div class="copy"><button class="tombol" onclick="copyBank2()">Salin</button></div>
         </div>
     </div>
 </section>

@@ -53,26 +53,9 @@
 
 /* Apply the animation to the image */
 .zoom-image {
+  position: relative;
   z-index: -1;
   animation: zoomInOut 4s ease-in-out infinite; /* 4 seconds duration, smooth easing, infinite loop */
-  transition: transform 0.5s ease-in-out; /* Smooth transitions */
-}
-
-@keyframes zoomInOutCenter {
-  0% {
-    transform: translateX(-50%) scale(1.1); /* Start at normal size and centered */
-  }
-  50% {
-    transform: translateX(-50%) scale(1); /* Zoom in and stay centered */
-  }
-  100% {
-    transform: translateX(-50%) scale(1.1); /* Zoom out and stay centered */
-  }
-}
-
-.zoom-image-center {
-  z-index: -1;
-  animation: zoomInOutCenter 4s ease-in-out infinite; /* 4 seconds duration, smooth easing, infinite loop */
   transition: transform 0.5s ease-in-out; /* Smooth transitions */
 }
 

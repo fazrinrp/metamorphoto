@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "the-seasons-reg";
+  src: url("../font/the-seasons/the-seasons-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "the-seasons-bd";
+  src: url("../font/the-seasons/the-seasons-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "the-seasons-italic";
+  src: url("../font/the-seasons/the-seasons-italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "the-seasons-light";
+  src: url("../font/the-seasons/the-seasons-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "march";
+  src: url("../font/march/march.ttf") format("truetype");
+}
+
+@media (max-width: 768px) {
+  .simply-countdown > .simply-section {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    opacity: 1;
+  }
+}
+
+.simply-countdown {
+  overflow: hidden;
+  display: table;
+  font-family: "the-seasons-bd", sans-serif; /* Default font for text */
+  margin: auto;
+  color: #f8f4ef;
+}
+
+.simply-countdown > .simply-section {
+  width: 10%;
+  height: 30px;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  opacity: 1;
+}
+
+.simply-countdown > .simply-section .simply-amount {
+  display: block;
+  text-align: center;
+  color: #f8f4ef;
+  font-family: "march", sans-serif; /* Font for numbers */
+  font-size: 2rem;
+}
+
+.simply-countdown > .simply-section .simply-word {
+  display: block;
+  text-align: center;
+  color: #f8f4ef;
+  font-family: "the-seasons-bd", sans-serif; /* Font for text */
+}
