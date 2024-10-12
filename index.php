@@ -62,6 +62,12 @@
                 <a class="tombol" href="https://dm.wa.link/8jbhy2" target="_blank">Pesan Sekarang</a>
             </div>
             <div class="grid-item">
+                <img src="img/template-aquatic.png" alt="Aquatuc Template" />
+                <h3>Mahogany</h3>
+                <a class="tombol" href="aquatic/" target="_blank">Lihat Contoh</a>
+                <a class="tombol" href="https://dm.wa.link/8jbhy2" target="_blank">Pesan Sekarang</a>
+            </div>
+            <div class="grid-item">
                 <img src="img/template-blue.png" alt="Blue Template" />
                 <h3>Soft Blue Sky</h3>
                 <a class="tombol" href="soft-blue-sky/" target="_blank">Lihat Contoh</a>
