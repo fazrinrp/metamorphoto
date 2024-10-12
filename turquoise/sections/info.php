@@ -6,11 +6,11 @@
             Bapak/Ibu/Saudara/i
             untuk menghadiri pernikahan putra-putri kami:</p>
         <div class="mempelai row justify-content-center">
-            <img class="mempelai-flower-top" src="img/main-prop/prop-3.png" alt="">
-            <img class="mempelai-flower-top" src="img/main-prop/prop-4.png" alt="">
+            <img class="mempelai-flower-top pop-up-3" src="img/main-prop/prop-3.png" alt="">
+            <img class="mempelai-flower-top pop-up-3" src="img/main-prop/prop-4.png" alt="">
 
-            <img class="mempelai-flower-bottom" src="img/main-prop/prop-2.png" alt="">
-            <img class="mempelai-flower-bottom" src="img/main-prop/prop-1.png" alt="">
+            <img class="mempelai-flower-bottom pop-up-3" src="img/main-prop/prop-2.png" alt="">
+            <img class="mempelai-flower-bottom pop-up-2" src="img/main-prop/prop-1.png" alt="">
 
             <img src="img/info/mempelai-wanita.png" class="pop-up-img round-image" alt="Round Image" />
             <h1 class="pop-up-img"><?php echo $mempelai_wanita ?></h1>
@@ -25,11 +25,11 @@
         </div>
 
         <div class="mempelai row justify-content-center">
-            <img class="mempelai-flower-top" src="img/main-prop/prop-3.png" alt="">
-            <img class="mempelai-flower-top" src="img/main-prop/prop-4.png" alt="">
+            <img class="mempelai-flower-top pop-up-3" src="img/main-prop/prop-3.png" alt="">
+            <img class="mempelai-flower-top pop-up-3" src="img/main-prop/prop-4.png" alt="">
 
-            <img class="mempelai-flower-bottom" src="img/main-prop/prop-2.png" alt="">
-            <img class="mempelai-flower-bottom" src="img/main-prop/prop-1.png" alt="">
+            <img class="mempelai-flower-bottom pop-up-3" src="img/main-prop/prop-2.png" alt="">
+            <img class="mempelai-flower-bottom pop-up-2" src="img/main-prop/prop-1.png" alt="">
             <img src="img/info/mempelai-pria.png" class="pop-up-img round-image" alt="Round Image" />
             <h1 class="pop-up-img"><?php echo $mempelai_pria ?></h1>
             <h2 class="pop-up-img"><?php echo $mempelai_pria_long ?></h2>
