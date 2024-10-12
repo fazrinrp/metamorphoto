@@ -1,4 +1,5 @@
 <section class="gift">
+    <img class="gradient top" src="img/main-prop/prop-9.png" alt="">
     <div>
         <h2 class="pop-up-img">Gift</h2>
         <p class="pop-up-img">Kehadiran anda merupakan hadiah terbaik yang bisa kami harapkan. Namun jika
@@ -25,7 +26,9 @@
             </h5>
             <div class="copy"><button class="tombol" onclick="copyBank2()">Salin</button></div>
         </div>
+        <img class="gallery-bottom zoom-inout-y" src="img/main-prop/prop-8.png" alt="">
     </div>
+    <img class="gradient bottom" src="img/main-prop/prop-10.png" alt="">
 </section>
 
 <script>

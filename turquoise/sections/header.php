@@ -1,4 +1,5 @@
 <section class="header">
+    <img class="gradient top" src="img/main-prop/prop-9.png" alt="">
     <img class="header-img" src="img/header/header.png" alt="">
     <img class="header-top zoom-inout-x" src="img/main-prop/prop-7.png" alt="">
     <img class="header-bottom zoom-inout-x" src="img/main-prop/prop-8.png" alt="">
@@ -20,4 +21,6 @@
         </h1>
         <h4><?php echo $tanggal_pernikahan ?></h4>
     </div>
+
+    <img class="gradient bottom" src="img/main-prop/prop-10.png" alt="">
 </section>

@@ -1,4 +1,5 @@
 <section class="closing">
+    <img class="gradient top" src="img/main-prop/prop-9.png" alt="">
     <div class="pop-up-img closing-text">
         <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir
             dan
