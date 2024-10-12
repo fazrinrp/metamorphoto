@@ -802,7 +802,7 @@ a {
 }
 
 .best-wishes {
-  z-index: 2; /* Higher z-index for the gallery images to be in front */
+  z-index: 999; /* Higher z-index for the gallery images to be in front */
   position: relative; /* Ensure they are on top of the frame */
 }
 
@@ -822,6 +822,10 @@ a {
   display: flex;
   flex-direction: column; /* Ensures label is above input */
   margin-bottom: 15px; /* Adds space between form fields */
+}
+
+.wish-card {
+  z-index: 9999;
 }
 
 .wish-card label {
@@ -869,7 +873,7 @@ textarea {
 
 .closing-text h3 {
   font-family: "parisienne";
-  font-size: 40px;
+  font-size: 36px;
   color: #d3a658;
 }
 

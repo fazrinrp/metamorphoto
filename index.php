@@ -62,8 +62,8 @@
                 <a class="tombol" href="https://dm.wa.link/8jbhy2" target="_blank">Pesan Sekarang</a>
             </div>
             <div class="grid-item">
-                <img src="img/template-aquatic.png" alt="Aquatuc Template" />
-                <h3>Mahogany</h3>
+                <img src="img/template-aquatic.png" alt="Aquatic Template" />
+                <h3>Aquatic</h3>
                 <a class="tombol" href="aquatic/" target="_blank">Lihat Contoh</a>
                 <a class="tombol" href="https://dm.wa.link/8jbhy2" target="_blank">Pesan Sekarang</a>
             </div>
