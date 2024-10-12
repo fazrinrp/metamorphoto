@@ -3,7 +3,7 @@
   position: relative;
   z-index: 9999; /* Ensure it's on top */
   display: inline-block;
-  padding: 12px 25px;
+  padding: 12px 20px;
   font-size: 1.1rem;
   font-weight: bold;
   color: white;
