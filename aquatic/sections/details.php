@@ -28,13 +28,13 @@
         <img class="card-flower-top" src="img/header-prop/prop-3.png" alt="">
         <img class="card-flower-top" src="img/header-prop/prop-2.png" alt="">
         <img class="card-flower-top" src="img/header-prop/prop-1.png" alt="">
-        <h3>Akad</h3>
+        <h3>Resepsi</h3>
         <div class="three-column">
             <h4><?php echo $hari_akad_nikah ?></h4>
             <h4><?php echo $tanggal_akad_nikah ?><br><?php echo $bulan_akad_nikah ?></h4>
             <h4><?php echo $tahun_akad_nikah ?></h4>
         </div>
-        <h4>PUKUL 09:00-10:00</h4>
+        <h4>PUKUL 10:00-selesai</h4>
         <h4>Lokasi:</h4>
         <p><?php echo $alamat_akad_nikah ?></p>
         <iframe

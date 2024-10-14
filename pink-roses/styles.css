@@ -29,7 +29,7 @@
   position: relative;
   z-index: 9999; /* Ensure it's on top */
   display: inline-block;
-  padding: 12px 25px;
+  padding: 10px 20px;
   font-size: 1.1rem;
   font-weight: bold;
   color: white;
@@ -39,6 +39,7 @@
   cursor: pointer;
   text-align: center; /* Center the text inside the button */
   transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 14px;
 }
 
 .tombol:hover {
@@ -710,35 +711,55 @@ a {
   position: relative;
 }
 
+.wish-card {
+  width: 80%;
+  background-color: rgba(245, 245, 245, 0.5); /* White with 50% transparency */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin: 0 auto; /* Center the card horizontally */
+  font-family: "Ovo";
+}
+
 .form-group {
-  display: flex;
-  flex-direction: column; /* Ensures label is above input */
-  margin-bottom: 15px; /* Adds space between form fields */
-}
-
-.wish-card label {
-  font-family: "quicksand-bold";
-  font-size: 20px;
-  padding: 10px 0px;
-}
-
-.wish-card button {
-  margin: 20px 0px;
-}
-
-label {
-  margin-bottom: 5px; /* Adds space between label and input */
-}
-
-textarea {
-  resize: vertical; /* Allows the user to resize the textarea vertically */
+  margin-bottom: 15px; /* Spacing between form elements */
 }
 
 .form-control {
-  margin: 0px 50px;
-  font-size: 18px; /* Adjust the size as needed */
-  padding: 10px; /* Optional: Adds padding to make the input fields look larger */ /* Optional: Makes the fields full width */
-  box-sizing: border-box;
+  box-sizing: border-box; /* Include padding and border in width calculation */
+  background-color: rgba(245, 245, 245, 0.5); /* White with 50% transparency */
+  width: 90%; /* Full width for input fields */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-box {
+  max-height: 200px; /* Maximum height for the chat box */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.5); /* White with 50% transparency */
+  margin-top: 20px; /* Space above the chat box */
+}
+
+
+.chat-message {
+  padding: 14px; /* Padding inside the message */
+  text-align: left;
+}
+
+.chat-box strong {
+  color: #ff8888; /* Color for the sender's name */
+}
+
+.wish-card h2 {
+  margin: 10px 0; /* Margin for the heading */
+  font-size: 24px; /* Heading size */
+}
+
+.wish-card p {
+  font-size: 16px; /* Paragraph size */
 }
 
 /* ----------------------- CLOSING -------------------------- */
