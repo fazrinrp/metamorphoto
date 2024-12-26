@@ -1,6 +1,8 @@
 <section class="info">
-    <img src="img/prop/10.png" class="zoom-image info-top-left" alt="Top Left Image" />
+    <img src="img/prop/1.png" class="zoom-image info-top-left" alt="Top Left Image" />
     <img src="img/prop/2.png" class="zoom-image info-bottom-right" alt="Bottom Right Image" />
+    <img src="img/prop/5.png" class="zoom-rotate-image info-middle-left" alt="Top Left Image" />
+    <img src="img/prop/6.png" class="zoom-rotate-image info-middle-right" alt="Bottom Right Image" />
 
 
     <img class="pop-up-img bismillah" src="img/bismillah.png" alt="" />
@@ -8,7 +10,7 @@
         Bapak/Ibu/Saudara/i
         untuk menghadiri pernikahan putra-putri kami:</p>
     <div class="mempelai row justify-content-center">
-        <img src="img/info/mempelai-wanita.jpeg" class="pop-up-img round-image" alt="Round Image" />
+        <img src="img/info/mempelai-wanita.jpg" class="pop-up-img round-image" alt="Round Image" />
         <h1 class="pop-up-img"><?php echo $mempelai_wanita ?></h1>
         <h2 class="pop-up-img"><?php echo $mempelai_wanita_long ?></h2>
         <h4 class="pop-up-img">Putri dari<br />Bapak <?php echo $mempelai_wanita_bapak ?> & Ibu
