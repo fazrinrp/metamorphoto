@@ -6,7 +6,9 @@
             anda
             bermaksud untuk mengirimkan hadiah pernikahan lain, silahkan ketuk tombol di bawah ini</p>
     </div>
-    <a class="tombol gift-button" href="#" id="toggleDiv">Ketuk untuk memberi hadiah</a>
+    <a class="tombol gift-button" href="https://www.myregistry.com/giftlist/kadoinsilmidanmisbah" target="_blank">Ketuk
+        untuk memberi kado</a>
+    <a class="tombol gift-button" href="#" id="toggleDiv">Ketuk untuk memberi hadiah lainnya</a>
 
     <div id="hiddenContent" class="hidden">
         <img src="img/prop/8.png" class="zoom-rotate-image gift-middle-right" alt="Bottom Right Image" />

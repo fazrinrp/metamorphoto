@@ -19,7 +19,7 @@ $waktu_akad_nikah = "Pukul 15:00 - Selesai";
 $alamat_akad_nikah = "Masjid Al-Jabbar, Jl. Cimincrang No.14, Kec. Gedebage";
 $maps_akad_nikah = "https://maps.app.goo.gl/5XxGtrpTaqD3tXgt6";
 
-$tanggal_resepsi = "Jumat, 24 Oktober 2025";
+$tanggal_resepsi = "Jumat, 24 Januari 2025";
 $waktu_resepsi = "Pukul 15:00 - Selesai";
 $alamat_resepsi = "Masjid Al-Jabbar, Jl. Cimincrang No.14, Kec. Gedebage";
 $maps_resepsi = "https://maps.app.goo.gl/5XxGtrpTaqD3tXgt6";
