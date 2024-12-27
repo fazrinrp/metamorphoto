@@ -13,7 +13,7 @@ $to = $_GET['to'] ?? 'Nama undangan';
     <meta property="og:title" content="The Wedding of Silmi & Misbah" />
     <meta property="og:description"
         content="Dengan memohon Rahmat & Ridho Allah SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri pernikahan kami." />
-    <meta property="og:image" content="https://metamorphoto.web.id/silmi-misbah/img/closing/closing-img.jpg" />
+    <meta property="og:image" content="https://metamorphoto.web.id/silmi-misbah/img/gallery/gallery-portrait-3.jpg" />
     <meta property="og:url" content="https://metamorphoto.web.id/silmi-misbah/" />
 
     <link rel="icon" href="../img/icon/mp-icon64.png" type="image/png" sizes="64x64" />

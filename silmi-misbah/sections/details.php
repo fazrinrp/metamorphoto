@@ -30,6 +30,10 @@
                 Peta</a></div>
     </div>
 
+    <div class="pop-up-img dress-code">
+        <img src="img/dress-code.jpeg" alt="">
+    </div>
+
     <div class="pop-up-img countdown">
         <h3>MENUJU HARI BAHAGIA</h3>
         <div class="simply-countdown mt-5"></div>

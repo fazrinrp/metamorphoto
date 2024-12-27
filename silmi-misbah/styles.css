@@ -163,7 +163,7 @@ a {
   margin: 0 auto !important;
   text-align: center !important;
   overflow: hidden;
-  background-image: url(img/bg1.png);
+  background-image: url(img/header/lock-image.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -179,7 +179,7 @@ a {
   margin: 0px;
   font-family: "the-seasons-bd";
   font-size: 77px;
-  color: #555;
+  color: #fff;
 }
 
 .and {
@@ -192,13 +192,14 @@ a {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 21px;
-  color: #555;
+  color: #fff;
 }
 
 .invite-to {
   z-index: 999;
   position: relative;
   margin-top: 12vh;
+  color: #fff;
 }
 
 .invite-to p {
@@ -216,7 +217,7 @@ a {
 /* Header */
 .header {
   padding-top: 80px;
-  background-image: url(img/bg1.png);
+  background-image: url(img/header/header-image.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -255,7 +256,7 @@ a {
   margin: 20px 0px;
   font-family: "the-seasons-bd", serif;
   font-size: 77px;
-  color: #555;
+  color: #fff;
 }
 
 .header h4 {
@@ -263,7 +264,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 21px;
-  color: #555;
+  color: #fff;
 }
 
 .nama-undangan {
@@ -289,7 +290,7 @@ a {
 
 .invitation strong {
   font-size: 20px;
-  color: #333;
+  color: #fff;
 }
 
 .opening {
@@ -452,6 +453,17 @@ a {
   font-size: 21px;
   letter-spacing: 3px;
   line-height: 2;
+}
+
+.dress-code {
+  position: relative;
+  text-align: center;
+  margin: 0px 20px;
+  margin-bottom: 90px;
+}
+
+.dress-code img {
+  width: 98%;
 }
 
 .card {
@@ -774,7 +786,6 @@ a {
   background-color: rgba(245, 245, 245, 0.5); /* White with 50% transparency */
   margin-top: 20px; /* Space above the chat box */
 }
-
 
 .chat-message {
   padding: 14px; /* Padding inside the message */
