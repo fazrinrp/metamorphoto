@@ -21,7 +21,7 @@ $to = $_GET['to'] ?? 'Nama undangan';
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wedding Invitation</title>
+    <title>The Wedding of Silmi & Misbah</title>
     <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
     <script src="script.js?v=<?php echo time(); ?>"></script>
     <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet" />
