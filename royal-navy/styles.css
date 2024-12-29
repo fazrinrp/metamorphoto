@@ -498,15 +498,17 @@ a {
 }
 
 .story img {
-  width: 220px;
+  width: 100%;
 }
 
-.container {
+.story-container {
   display: flex;
   flex-direction: row;
   gap: 18px; /* Add spacing between columns */
   align-items: center; /* Vertically center the columns */
   width: 90%;
+  justify-content: center; /* Center the container horizontally */
+  margin: 0 auto; /* Ensure the container is centered horizontally */
 }
 
 .story h3 {

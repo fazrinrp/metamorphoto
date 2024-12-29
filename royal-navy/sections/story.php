@@ -1,6 +1,6 @@
 <section class="story">
     <h2 class="pop-up-img">Our Love Story</h2>
-    <div class="container pop-up-img">
+    <div class="story-container pop-up-img">
         <div class="column left-column">
             <h3>2021</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nobis iusto quas est sint possimus, autem
@@ -10,7 +10,7 @@
             <img src="img/info/mempelai-wanita.png" class="round-image" alt="Round Image" />
         </div>
     </div>
-    <div class="container pop-up-img">
+    <div class="story-container pop-up-img">
         <div class="column left-column">
             <img src="img/info/mempelai-wanita.png" class="round-image" alt="Round Image" />
         </div>
@@ -21,7 +21,7 @@
         </div>
 
     </div>
-    <div class="container pop-up-img">
+    <div class="story-container pop-up-img">
         <div class="column left-column">
             <h3>2023</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sit fugit omnis sed quia velit quis
