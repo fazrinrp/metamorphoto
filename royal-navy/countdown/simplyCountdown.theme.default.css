@@ -1,0 +1,49 @@
+@import url("../styles/fonts.css");
+
+@media (max-width: 768px) {
+  .simply-countdown > .simply-section {
+    width: 20px;
+    height: 20px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    opacity: 1;
+  }
+}
+
+.simply-countdown {
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if needed */
+  font-family: "Ovo", sans-serif; /* Default font for text */
+  margin: auto;
+  margin-top: 10px;
+  color: #bf9351;
+}
+
+.simply-countdown > .simply-section {
+  width: 10%;
+  height: 30px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+
+.simply-countdown > .simply-section .simply-amount {
+  display: block;
+  text-align: center;
+  color: #bf9351;
+  font-family: "Ovo", sans-serif; /* Font for numbers */
+  font-size: 2rem;
+}
+
+.simply-countdown > .simply-section .simply-word {
+  display: block;
+  text-align: center;
+  color: #bf9351;
+  font-family: "Ovo", sans-serif; /* Font for text */
+}
