@@ -205,42 +205,42 @@ a {
 
 .lock-flower-top {
   width: 34vh;
-  z-index: -1;
+  z-index: 9999;
   position: absolute;
   top: 13%;
 }
 
 .lock-flower-bottom {
   width: 40vh;
-  z-index: -1;
+  z-index: 9999;
   position: absolute;
   top: 50%;
 }
 
 .lock-flower-bottom-2 {
   width: 44vh;
-  z-index: -1;
+  z-index: 9999;
   position: absolute;
   top: 47%;
 }
 
 .header-flower-top {
   width: 34vh;
-  z-index: -1;
+  z-index: 9999;
   position: absolute;
   top: 18%;
 }
 
 .header-flower-bottom {
   width: 40vh;
-  z-index: -1;
+  z-index: 9999;
   position: absolute;
   top: 59vh;
 }
 
 .header-flower-bottom-2 {
   width: 44vh;
-  z-index: -1;
+  z-index: 9999;
   position: absolute;
   top: 55vh;
 }
