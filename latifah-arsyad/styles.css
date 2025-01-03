@@ -1,0 +1,927 @@
+@import url("styles/fonts.css");
+@import url("styles/image-animations.css");
+
+/*
+@media (max-width: 768px) {
+  .countdown {
+    margin: 0px 15px 50px 15px;
+    font-size: 80%;
+  }
+
+  .lock-container h1,
+  h4 {
+    font-size: 90%;
+  }
+
+  .opening {
+    font-size: 90%;
+  }
+  .opening img {
+    width: 80%;
+  }
+
+  .info p {
+    font-size: 50%;
+  }
+}
+*/
+
+.tombol {
+  font-family: "Ovo", serif;
+  position: relative;
+  z-index: 9999;
+  display: inline-flex; /* Use inline-flex for proper alignment */
+  align-items: center; /* Vertically center the icon and text */
+  padding: 9px 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  background-color: #d3a658;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tombol:hover {
+  background-color: #917138; /* Change color on hover */
+}
+
+.tombol:active {
+  transform: scale(0.95); /* Slightly shrink when clicked */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "pt-serif-reg", serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-family: "parisienne";
+  color: #d3a658;
+  font-size: 50px;
+}
+
+h4,
+p {
+  font-family: "Ovo";
+  color: #4a4d54;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ---------------- LOCK SCREEN ------------------- */
+
+.and {
+  font-size: 35px;
+  vertical-align: top;
+}
+
+.lock-screen {
+  padding: 0 !important;
+  max-width: 520px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  overflow: hidden;
+  background-image: url(img/background-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+
+  /* Flexbox for centering content */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Align items to the top */
+}
+
+.lock-screen-content {
+  margin-top: 45vh;
+  position: relative;
+  z-index: 9999; /* Keep this higher to stay on top of the images */
+}
+
+.lock-container {
+  margin: 0;
+  color: #2e2c27;
+}
+
+.lock-img {
+  height: 44vh;
+  position: absolute;
+  z-index: 0;
+  top: 28%; /* Position in the middle vertically */
+  transform: translate(-50%, -50%); /* Center the image */
+}
+
+.header-img {
+  height: 44vh;
+  position: absolute;
+  z-index: 0;
+  top: 36%; /* Position in the middle vertically */
+  transform: translate(-50%, -50%); /* Center the image */
+}
+
+/* Keyframes for pop-up animation */
+@keyframes popUpX {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.pop-up-1 {
+  transform: translate(-50%, -50%);
+  animation: popUpX 1s forwards;
+}
+
+.pop-up-2 {
+  transform: translate(-50%, -50%);
+  animation: popUpX 3s forwards;
+}
+
+.pop-up-3 {
+  transform: translate(-50%, -50%);
+  animation: popUpX 5s forwards;
+}
+
+@keyframes zoomInOutX {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1); /* Start and end with normal size */
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1); /* Zoom in at 50% */
+  }
+}
+
+@keyframes zoomInOutY {
+  0%,
+  100% {
+    transform: translateX(-50%) scale(1); /* Start and end with normal size */
+  }
+  50% {
+    transform: translateX(-50%) scale(1.1); /* Zoom in at 50% */
+  }
+}
+
+.zoom-inout-x {
+  animation: zoomInOutX 4s ease-in-out infinite; /* 4 seconds duration, smooth easing, infinite loop */
+  transition: transform 0.5s ease-in-out;
+}
+
+.zoom-inout-y {
+  animation: zoomInOutY 4s ease-in-out infinite; /* 4 seconds duration, smooth easing, infinite loop */
+  transition: transform 0.5s ease-in-out;
+}
+
+.header-top,
+.header-bottom {
+  width: 100%;
+  z-index: 999;
+  position: absolute;
+}
+
+.header-top {
+  top: 3vh; /* Position in the middle vertically */
+}
+
+.header-bottom {
+  top: 95vh;
+}
+
+.lock-flower-top {
+  width: 34vh;
+  z-index: -1;
+  position: absolute;
+  top: 13%;
+}
+
+.lock-flower-bottom {
+  width: 40vh;
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+}
+
+.lock-flower-bottom-2 {
+  width: 44vh;
+  z-index: -1;
+  position: absolute;
+  top: 47%;
+}
+
+.header-flower-top {
+  width: 34vh;
+  z-index: -1;
+  position: absolute;
+  top: 18%;
+}
+
+.header-flower-bottom {
+  width: 40vh;
+  z-index: -1;
+  position: absolute;
+  top: 59vh;
+}
+
+.header-flower-bottom-2 {
+  width: 44vh;
+  z-index: -1;
+  position: absolute;
+  top: 55vh;
+}
+
+.lock-container h1 {
+  display: inline-block;
+  margin: 10px 0px;
+  font-size: 40px;
+  line-height: 0.85;
+}
+
+.lock-container h4 {
+  font-family: "Ovo", serif;
+  margin: 10px 0px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 10px;
+}
+
+.invite-to {
+  margin-top: 4vh;
+  background-color: rgba(255, 255, 255, 0.6); /* White with 50% transparency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow with slight transparency */
+  padding: 8px 60px;
+  border-radius: 10px;
+}
+
+.invite-to p {
+  margin: 5px;
+  font-size: 12px;
+}
+
+.invite-to h3 {
+  font-size: 16px;
+  margin: 12px 0px;
+}
+
+.container {
+  padding: 0 !important;
+  max-width: 520px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  overflow: hidden;
+}
+
+/* ---------------- HEADER ------------------- */
+.header {
+  padding-top: 80px;
+  background-image: url(img/background-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient {
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%); /* Center the element horizontally */
+  z-index: 0;
+}
+
+.top {
+  top: 0;
+  transform: translateX(-50%); /* Keep both translate for the top gradient */
+}
+
+.bottom {
+  bottom: 0;
+  transform: translateX(-50%); /* Only translate horizontally for the bottom gradient */
+}
+
+.header-content {
+  margin-top: 60vh;
+}
+
+.header-content img {
+  width: 60px;
+  margin: 0px 0px 20px 0px;
+}
+
+.header h1 {
+  display: inline-block;
+  margin: 10px 0px;
+  font-size: 40px;
+  line-height: 0.85;
+}
+
+.header h4 {
+  font-family: "Ovo", serif;
+  margin: 15px 0px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+.nama-undangan {
+  margin-top: 100px;
+}
+
+.header p {
+  margin-top: 0 !important;
+}
+
+.header-highlight {
+  width: 80vh;
+  z-index: 0;
+  position: absolute;
+  top: 72vh;
+}
+
+/* ---------------- INVITATION ------------------- */
+.invitation {
+  background-image: url(img/background-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  font-size: 18px;
+  color: #f8f4ef;
+  width: 100%;
+  overflow: hidden;
+}
+
+.invitation-flower-top {
+  width: 50vh;
+  z-index: 999;
+  position: absolute;
+  top: 10vh;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image */
+}
+
+.invitation-img {
+  width: 95%;
+  height: 90vh;
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 40vh;
+  transform: translate(-50%, -50%); /* Center the image */
+}
+
+.invitation-container {
+  width: 75%;
+  margin: 10vh auto;
+}
+
+.countdown {
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.countdown h3 {
+  font-family: "Ovo";
+  color: #d3a658;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.opening p {
+  font-size: 14px;
+}
+
+.invitation-bottom {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+}
+
+/* ------------------- INFO ---------------------- */
+
+.info {
+  background-color: #c1e4e7;
+  padding: 70px 0px; /* Add padding if needed */
+  color: #2e2c27;
+  position: relative;
+  overflow: hidden;
+}
+
+.info-bottom {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+}
+
+.info-container {
+  background-color: rgba(255, 255, 255, 0.4); /* White with 50% transparency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 30px 0px 60px 0px;
+  margin: 0px 20px;
+  border-radius: 20px;
+  z-index: 9999;
+}
+
+.bismillah {
+  width: 55%;
+  margin: 20px 0px 30px 0px;
+}
+
+.info p {
+  font-size: 18px;
+  margin: 0px 34px; /* Add margin-bottom to create space for the image */
+}
+
+.mempelai h1 {
+  font-family: "parisienne";
+  margin: 36px 0px 0px 0px;
+  font-size: 46px;
+  color: #d3a658;
+}
+
+.mempelai h2 {
+  font-family: "parisienne";
+  margin: 0px;
+  font-size: 36px;
+  color: #d3a658;
+}
+
+.mempelai h4 {
+  margin: 15px 0px 0px 0px;
+  font-size: 14px;
+}
+
+.mempelai {
+  margin: 60px 0px 0px 0px;
+  text-align: center; /* Center-align text and image */
+  position: relative;
+  z-index: 9999;
+}
+
+.mempelai-flower-top {
+  width: 38vh;
+  z-index: 999;
+  position: absolute;
+  top: 5vh;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image */
+}
+
+.mempelai-flower-bottom {
+  width: 36vh;
+  z-index: 999;
+  position: absolute;
+  top: 35vh;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image */
+}
+
+.instagram {
+  margin: 30px 0px 0px 0px;
+}
+
+.icon {
+  width: 18px;
+  margin-right: 6px; /* Optional: Add space between icon and text */
+}
+
+.round-image {
+  height: 35vh; /* Set the width of the round image */
+  object-fit: cover; /* Ensure the image covers the circle */
+  margin-top: 20px; /* Space between the paragraph and the image */
+}
+
+/* ---------------- WEDDING DETAILS ------------------- */
+.details {
+  background-image: url(img/background-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 0; /* Ensure consistent padding */
+  font-size: 18px;
+  position: relative; /* The container should have relative positioning */
+  width: 100%;
+}
+
+.details h2 {
+  margin: 30px 0px;
+}
+
+.card {
+  background-image: url(img/main-prop/prop-11.png);
+  background-size: 100% 100%; /* Stretches the image to fit the container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+
+  position: relative;
+  text-align: center;
+  padding: 50px 40px;
+  margin: 80px 10px;
+  border-radius: 20px;
+
+  flex-direction: column; /* Align items in a column */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  height: 60vh; /* Ensure the card takes up full height */
+  z-index: 1;
+}
+
+.card-flower-top {
+  width: 85%;
+  z-index: 999;
+  position: absolute;
+  top: 6vh;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image */
+}
+
+.card h3,
+.card h4,
+.card h5,
+.maps {
+  font-size: 16px;
+  margin: 3% 0%;
+}
+
+.card h3 {
+  margin-top: 5%;
+  font-family: "parisienne", serif;
+  font-size: 40px;
+  color: #d3a658;
+}
+
+.three-column {
+  display: flex;
+  justify-content: space-between; /* Distribute columns evenly */
+  align-items: center; /* Vertically center the text */
+  height: 15%; /* Set a fixed height for the container */
+}
+
+.three-column h4 {
+  flex: 1; /* Makes each <h4> take equal space */
+  text-align: center; /* Horizontally centers the text */
+  margin: 0; /* Removes default margins */
+  padding: 10px; /* Optional: Adds padding inside each column */
+}
+
+.three-column h4:nth-child(2) {
+  border-left: 1px solid #ccc; /* Left border to separate from the left column */
+  border-right: 1px solid #ccc; /* Right border to separate from the right column */
+}
+
+/* -------------------------- GALLERY ------------------------- */
+
+.gallery {
+  background-color: #c1e4e7;
+  padding: 50px 0px 100px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-top {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+.gallery h2 {
+  font-size: 56px;
+}
+
+.two-column-portraits {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
+  gap: 20px; /* Space between the columns */
+  width: 90%; /* Full width container */
+  margin: 0 auto; /* Center the container */
+}
+
+.portrait img {
+  width: 100%; /* Make the image take the full width of the column */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover; /* Ensures the image covers the entire area of the div */
+  border-radius: 10px; /* Optional: Rounds the corners of the image */
+}
+
+.single-column-landscapes {
+  display: flex;
+  flex-direction: column; /* Stack the images vertically */
+  gap: 20px; /* Space between the rows */
+  width: 100%; /* Full width container */
+  margin: 0 auto; /* Center the container */
+}
+
+.landscape img {
+  width: 90%; /* Make the image take the full width of the container */
+  height: 250px; /* Maintain the aspect ratio */
+  object-fit: cover; /* Ensures the image covers the entire area of the div */
+  border-radius: 10px; /* Optional: Rounds the corners of the image */
+}
+
+.gallery2 {
+  margin-top: 20px;
+}
+
+.gallery3 {
+  margin-top: 20px;
+}
+
+.gallery-top-left,
+.gallery-bottom-right {
+  z-index: 0; /* Lower z-index to push behind other elements */
+  position: absolute;
+}
+
+.portrait img,
+.landscape img {
+  z-index: 2; /* Higher z-index for the gallery images to be in front */
+  position: relative; /* Ensure they are on top of the frame */
+}
+
+.invitation,
+.gallery1,
+.gallery2,
+.gallery3 {
+  position: relative; /* Ensure proper stacking of content */
+  z-index: 1; /* Higher than the background frames */
+}
+
+.gallery-bottom {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+}
+
+/* ----------------------- GIFT -------------------------- */
+
+.gift {
+  background-image: url(img/background-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0px 100px 0px;
+  position: relative;
+}
+
+.gift-flower-top {
+  width: 70%;
+  z-index: 999;
+  position: absolute;
+  top: 3vh; /* Position in the middle vertically */
+  transform: translate(-50%, -50%); /* Center the image */
+  animation: zoomInOutX 4s ease-in-out infinite; /* 4 seconds duration, smooth easing, infinite loop */
+  transition: transform 0.5s ease-in-out;
+}
+
+.gift-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  margin: 0; /* Remove margin if not needed */
+}
+
+.gift h2 {
+  font-size: 56px;
+  color: #d3a658;
+}
+
+.gift p {
+  padding: 0px 30px 0px 30px;
+  font-size: 18px;
+  color: #2e2c27;
+  position: relative;
+}
+
+.gift-button {
+  margin-top: 50px;
+}
+
+.hidden {
+  display: none; /* Initially hide the div */
+}
+
+#hiddenContent {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#hiddenText {
+  display: none; /* Hide the input field */
+}
+
+.giftcard {
+  background-color: rgba(245, 245, 245, 0.75); /* White with 50% transparency */
+  box-shadow: 0 4px 8px rgba(236, 236, 236, 0.2);
+  position: relative; /* Ensure the card is positioned relative to contain the text */
+  text-align: center; /* Center-align text */
+  margin: 0 auto; /* Center the card in its container */
+  width: 90%;
+  height: 280px;
+  margin-bottom: 30px;
+  z-index: 999;
+  border-radius: 20px;
+}
+
+.giftcard img {
+  margin: 20px auto;
+  width: 50%;
+}
+
+.giftcard h5,
+.giftcard .copy {
+  position: absolute; /* Position text absolutely within the card */
+  color: #2e2c27; /* Ensure text is visible on the image */
+  left: 50%;
+  transform: translateX(-50%); /* Center text horizontally */
+  font-size: 21px;
+}
+
+.giftcard h5 {
+  letter-spacing: 2px;
+  line-height: 1.4;
+  width: 350px;
+  top: 70px; /* Position near the bottom of the image */
+}
+
+.giftcard .copy {
+  margin-top: 20px;
+  bottom: 25px;
+}
+
+/* ----------------------- WISHES -------------------------- */
+
+.wishes {
+  background-color: #c1e4e7;
+  padding: 50px 0px;
+  position: relative;
+  overflow: hidden;
+  color: #2e2c27;
+}
+
+.wishes-top-left {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 40%;
+  margin: 0; /* Remove margin if not needed */
+}
+
+.wishes-top-left,
+.wishes-bottom-right {
+  z-index: 0; /* Lower z-index to push behind other elements */
+  position: absolute;
+}
+
+.best-wishes {
+  z-index: 999; /* Higher z-index for the gallery images to be in front */
+  position: relative; /* Ensure they are on top of the frame */
+}
+
+.wishes h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 56px;
+}
+
+.wishes p {
+  padding: 0px 40px;
+  font-size: 18px;
+  position: relative;
+}
+
+.wish-card {
+  width: 80%;
+  background-color: rgba(245, 245, 245, 0.5); /* White with 50% transparency */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin: 0 auto; /* Center the card horizontally */
+  font-family: "Ovo";
+}
+
+.form-group {
+  margin-bottom: 15px; /* Spacing between form elements */
+}
+
+.form-control {
+  box-sizing: border-box; /* Include padding and border in width calculation */
+  background-color: rgba(245, 245, 245, 0.5); /* White with 50% transparency */
+  width: 90%; /* Full width for input fields */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-box {
+  max-height: 200px; /* Maximum height for the chat box */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.5); /* White with 50% transparency */
+  margin-top: 20px; /* Space above the chat box */
+}
+
+.chat-message {
+  padding: 14px; /* Padding inside the message */
+  text-align: left;
+}
+
+.chat-box strong {
+  color: #d3a658; /* Color for the sender's name */
+}
+
+.wish-card h2 {
+  margin: 10px 0; /* Margin for the heading */
+  font-size: 24px; /* Heading size */
+}
+
+.wish-card p {
+  font-size: 16px; /* Paragraph size */
+}
+
+/* ----------------------- CLOSING -------------------------- */
+
+.closing {
+  background-image: url(img/background-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.closing-text {
+  font-size: 16px;
+  color: #f8f4ef;
+  margin: 0px 30px 0px 30px;
+}
+
+.closing-text h3 {
+  font-family: "parisienne";
+  font-size: 36px;
+  color: #d3a658;
+}
+
+/* ----------------------- CLOSING 2 -------------------------- */
+
+.closing-img {
+  background-image: url("img/closing.png");
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ----------------------- FOOTER -------------------------- */
+
+/* Footer */
+.footer {
+  padding: 20px;
+  font-size: 16px;
+  background-color: #262626;
+  color: #e0e0e0;
+  padding: 60px 0px 30px 0px;
+}
+
+.footer h4 {
+  color: #e0e0e0;
+}
+
+.social-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Adjusts space between logos */
+}
+
+.footer-social-logo {
+  width: 40px; /* Adjust size as needed */
+  height: auto;
+  padding: 20px 30px;
+}
