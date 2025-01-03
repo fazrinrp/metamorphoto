@@ -38,85 +38,85 @@
 
 
 <script>
-document.getElementById("wishForm").addEventListener("submit", function(e) {
-    e.preventDefault(); // Prevent the form from submitting normally
+    document.getElementById("wishForm").addEventListener("submit", function(e) {
+        e.preventDefault(); // Prevent the form from submitting normally
 
-    var name = document.getElementById("name").value;
-    var rsvp = document.getElementById("rsvp").value;
-    var message = document.getElementById("message").value;
-    var submitButton = document.querySelector(".send-message"); // Select the submit button
+        var name = document.getElementById("name").value;
+        var rsvp = document.getElementById("rsvp").value;
+        var message = document.getElementById("message").value;
+        var submitButton = document.querySelector(".send-message"); // Select the submit button
 
-    // Show loading state
-    submitButton.disabled = true;
-    submitButton.textContent = "Sedang dikirim...";
+        // Show loading state
+        submitButton.disabled = true;
+        submitButton.textContent = "Sedang dikirim...";
 
-    // Google Apps Script Web App URL
-    var scriptURL =
-        "https://script.google.com/macros/s/AKfycbyDQRtPHnyHSc9x5_i66bxRyrEagSbFtg6c7tfI4Z3Er1ADAxl3nA03_ypKUpiKoSK5/exec";
+        // Google Apps Script Web App URL
+        var scriptURL =
+            "https://script.google.com/macros/s/AKfycbwGduLPSdbqGwEKAy_ly0YY9H0RaEDTQZa3xgXWeb0RV1Xbm2ViG-0_ZToOnS4gQwV5/exec";
 
-    // Create a new FormData object to send the data
-    var formData = new FormData();
-    formData.append("nama", name);
-    formData.append("pesan", message);
-    formData.append("rsvp", rsvp);
+        // Create a new FormData object to send the data
+        var formData = new FormData();
+        formData.append("nama", name);
+        formData.append("pesan", message);
+        formData.append("rsvp", rsvp);
 
-    // Send data to Google Apps Script using fetch
-    fetch(scriptURL, {
-            method: "POST",
-            mode: 'no-cors', // This disables CORS checks
-            body: formData,
-        })
-        .then((response) => response.text())
-        .then((data) => {
-            alert("Ucapan berhasil dikirim!");
-            // Reset form
-            document.getElementById("wishForm").reset();
+        // Send data to Google Apps Script using fetch
+        fetch(scriptURL, {
+                method: "POST",
+                mode: 'no-cors', // This disables CORS checks
+                body: formData,
+            })
+            .then((response) => response.text())
+            .then((data) => {
+                alert("Ucapan berhasil dikirim!");
+                // Reset form
+                document.getElementById("wishForm").reset();
 
-            // Restore the button state
-            submitButton.disabled = false;
-            submitButton.textContent = "Kirim";
-        })
-        .catch((error) => {
-            console.error("Error!", error.message);
+                // Restore the button state
+                submitButton.disabled = false;
+                submitButton.textContent = "Kirim";
+            })
+            .catch((error) => {
+                console.error("Error!", error.message);
 
-            // Restore the button state even if there is an error
-            submitButton.disabled = false;
-            submitButton.textContent = "Kirim";
-            alert("Terjadi kesalahan. Silakan coba lagi.");
-        });
-});
-
-async function loadChatMessages() {
-    try {
-        // Fetch data from Google Apps Script (replace with your Web App URL)
-        const response = await fetch(
-            'https://script.google.com/macros/s/AKfycbyDQRtPHnyHSc9x5_i66bxRyrEagSbFtg6c7tfI4Z3Er1ADAxl3nA03_ypKUpiKoSK5/exec', {
-                method: 'GET',
-                mode: 'cors',
+                // Restore the button state even if there is an error
+                submitButton.disabled = false;
+                submitButton.textContent = "Kirim";
+                alert("Terjadi kesalahan. Silakan coba lagi.");
             });
+    });
 
-        // Parse the response JSON
-        const chatData = await response.json();
+    async function loadChatMessages() {
+        try {
+            // Fetch data from Google Apps Script (replace with your Web App URL)
+            const response = await fetch(
+                'https://script.google.com/macros/s/AKfycbwGduLPSdbqGwEKAy_ly0YY9H0RaEDTQZa3xgXWeb0RV1Xbm2ViG-0_ZToOnS4gQwV5/exec', {
+                    method: 'GET',
+                    mode: 'cors',
+                });
 
-        // Add messages to the chat box
-        chatData.forEach(item => {
-            addMessageToChatBox(item.name, item.message);
-            console.log(item.name);
-        });
-    } catch (error) {
-        console.error('Error fetching chat messages:', error);
+            // Parse the response JSON
+            const chatData = await response.json();
+
+            // Add messages to the chat box
+            chatData.forEach(item => {
+                addMessageToChatBox(item.name, item.message);
+                console.log(item.name);
+            });
+        } catch (error) {
+            console.error('Error fetching chat messages:', error);
+        }
     }
-}
 
-// Call this function when your page loads to populate the chat box
-loadChatMessages();
+    // Call this function when your page loads to populate the chat box
+    loadChatMessages();
 
-function addMessageToChatBox(name, message) {
-    const chatBox = document.getElementById('chat-box');
-    const chatMessage = document.createElement('div');
-    chatMessage.classList.add('chat-message'); // Add a class for styling
-    chatMessage.innerHTML = `<strong>${name}:</strong> ${message}`;
-    chatBox.appendChild(chatMessage);
-    chatBox.scrollTop = chatBox.scrollHeight; // Scroll to the latest message
-}
+    function addMessageToChatBox(name, message) {
+        const chatBox = document.getElementById('chat-box');
+        const chatMessage = document.createElement('div');
+        chatMessage.classList.add('chat-message'); // Add a class for styling
+        chatMessage.innerHTML = `<strong>${name}:</strong> ${message}`;
+        chatBox.appendChild(chatMessage);
+        chatBox.scrollTop = chatBox.scrollHeight; // Scroll to the latest message
+    }
 </script>

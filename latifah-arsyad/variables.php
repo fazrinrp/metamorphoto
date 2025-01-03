@@ -37,10 +37,10 @@ $maps_resepsi = "https://maps.app.goo.gl/fcis8rtEh4E3E4xQA";
 $countdown_year = 2025;
 $countdown_month = 2;
 $countdown_day = 1;
-$countdown_hours = 8;
+$countdown_hours = 9;
 
 
-$no_rek_bank1 = "3775-0102-8585-509";
+$no_rek_bank1 = "377501028585509";
 $an_rek_bank1 = "Latifah Nurhasanah";
 
 $no_rek_bank2 = "901166274040";
