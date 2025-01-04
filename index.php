@@ -79,6 +79,12 @@
                 <a class="tombol" href="pink-roses/" target="_blank">Lihat Contoh</a>
                 <a class="tombol" href="https://wa.link/o36qym" target="_blank">Pesan Sekarang</a>
             </div>
+            <div class="grid-item">
+                <img src="img/royal-navy.png" alt="Royal Navy Template" />
+                <h3>Royal Navy</h3>
+                <a class="tombol" href="royal-navy/" target="_blank">Lihat Contoh</a>
+                <a class="tombol" href="https://wa.link/o36qym" target="_blank">Pesan Sekarang</a>
+            </div>
         </div>
     </section>
 

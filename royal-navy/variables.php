@@ -14,12 +14,12 @@ $mempelai_pria_ibu = "Linda";
 $mempelai_pria_instagram_username = "username";
 $mempelai_pria_instagram = "https://www.instagram.com/metamorphoto22/";
 
-$tanggal_pernikahan = "20 Oktober 2024";
+$tanggal_pernikahan = "20 Oktober 2025";
 
 $hari_akad_nikah = "Minggu";
 $tanggal_akad_nikah = "20";
 $bulan_akad_nikah = "Oktober";
-$tahun_akad_nikah = "2024";
+$tahun_akad_nikah = "2025";
 
 $waktu_akad_nikah = "Pukul 09:00 - 10:00 WIB";
 $alamat_akad_nikah = "Kediaman Mempelai Wanita Jl. Nama Jalan dan Nomor Jalan";
@@ -34,7 +34,7 @@ $waktu_resepsi = "Pukul 10:00 - Selesai";
 $alamat_resepsi = "Kediaman Mempelai Wanita Jl. Nama Jalan dan Nomor Jalan";
 $maps_resepsi = "https://maps.app.goo.gl/wywgsbUopvK9YYYH6";
 
-$countdown_year = 2024;
+$countdown_year = 2025;
 $countdown_month = 10;
 $countdown_day = 20;
 $countdown_hours = 8;

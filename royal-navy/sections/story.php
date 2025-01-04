@@ -7,12 +7,12 @@
                 iste dignissimos.</p>
         </div>
         <div class="column right-column">
-            <img src="img/info/mempelai-wanita.png" class="round-image" alt="Round Image" />
+            <img src="img/story/1.png" class="round-image" alt="Round Image" />
         </div>
     </div>
     <div class="story-container pop-up-img">
         <div class="column left-column">
-            <img src="img/info/mempelai-wanita.png" class="round-image" alt="Round Image" />
+            <img src="img/story/2.png" class="round-image" alt="Round Image" />
         </div>
         <div class="column right-column">
             <h3>2022</h3>
@@ -28,7 +28,17 @@
                 tempore illo quae accusamus.</p>
         </div>
         <div class="column right-column">
-            <img src="img/info/mempelai-wanita.png" class="round-image" alt="Round Image" />
+            <img src="img/story/3.png" class="round-image" alt="Round Image" />
+        </div>
+    </div>
+    <div class="story-container pop-up-img">
+        <div class="column left-column">
+            <img src="img/story/4.png" class="round-image" alt="Round Image" />
+        </div>
+        <div class="column right-column">
+            <h3>2024</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero aperiam recusandae inventore, animi
+                quos rerum sit unde.</p>
         </div>
     </div>
 </section>
