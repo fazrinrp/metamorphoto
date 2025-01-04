@@ -385,12 +385,12 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-size: 18px;
+  font-size: 16px;
   color: #4a4d54;
   position: relative; /* The container should have relative positioning */
   width: 100%;
   overflow: hidden;
-  padding: 50px 0px 100px 0px;
+  padding: 50px 0px 0px 0px;
 }
 
 .details-flower-top {
@@ -403,18 +403,22 @@ a {
 }
 
 .details-card {
-  background-image: url(img/prop/detail-card.png);
+  background-image: url(img/prop/card-bg.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative; /* Allows z-index to work */
-  z-index: 2; /* Ensure text is in front of images */
-  padding: 160px 60px 80px 60px; /* Optional: Add padding to position text */
-  margin: 30px 0px;
+  height: 90vh;
+  position: relative; /* Ensures child elements are positioned relative to this */
+  z-index: 2; /* Ensures text is in front of images */
+  padding: 0; /* Remove padding to make centering accurate */
+  margin: 0;
+  display: flex; /* Enable flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 .details-card img {
-  width: 20%;
+  width: 15%;
   margin: 0;
   padding: 0;
 }
@@ -424,7 +428,7 @@ a {
 }
 
 .details-card p {
-  font-size: 21px;
+  font-size: 16px;
   padding: 0px 30px;
 }
 
@@ -432,7 +436,7 @@ a {
   display: flex;
   justify-content: space-between; /* Distribute columns evenly */
   align-items: center; /* Vertically center the text */
-  height: 100px; /* Set a fixed height for the container */
+  height: 80px; /* Set a fixed height for the container */
 }
 
 .three-column h4 {
@@ -453,14 +457,14 @@ a {
 
 .lokasi h4 {
   margin: 0px;
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 10px;
 }
 
 .lokasi p {
   margin: 0;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .maps {
