@@ -26,7 +26,8 @@
   font-family: "cormorant-garamond-bold", serif;
   position: relative;
   z-index: 9999; /* Ensure it's on top */
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   padding: 12px 25px;
   font-size: 1.1rem;
   font-weight: bold;
@@ -37,6 +38,11 @@
   cursor: pointer;
   text-align: center; /* Center the text inside the button */
   transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.icon {
+  width: 18px;
+  margin-right: 6px; /* Optional: Add space between icon and text */
 }
 
 .tombol:hover {
@@ -626,7 +632,6 @@ a {
   margin-top: 20px; /* Space above the chat box */
   color: #262626;
 }
-
 
 .chat-message {
   padding: 14px; /* Padding inside the message */

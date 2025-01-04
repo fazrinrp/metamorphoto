@@ -42,7 +42,8 @@ $to = $_GET['to'] ?? 'Nama undangan';
                     <p>Kepada Yth:</p>
                     <p>Bapak/Ibu/Saudara/i</p>
                     <h3><?php echo $to ?></h3>
-                    <button id="unlockButton" class="tombol">Buka Undangan</button>
+                    <button id="unlockButton" class="tombol"><img class="icon"
+                            src="../assets/icons/envelope-white-icon.png" alt="">Buka Undangan</button>
                 </div>
             </div>
         </div>
