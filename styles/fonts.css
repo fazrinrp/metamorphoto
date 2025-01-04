@@ -46,75 +46,75 @@
 
 @font-face {
   font-family: "parisienne";
-  src: url("../font/parisienne/parisienne.ttf") format("truetype");
+  src: url("../assets/fonts/parisienne/parisienne.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "pt-serif-reg";
-  src: url("../font/pt-serif/PTSerif-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/pt-serif/PTSerif-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "pt-serif-bold";
-  src: url("../font/pt-serif/PTSerif-Bold.ttf") format("truetype");
+  src: url("../assets/fonts/pt-serif/PTSerif-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "pt-serif-italic";
-  src: url("../font/pt-serif/PTSerif-Italic.ttf") format("truetype");
+  src: url("../assets/fonts/pt-serif/PTSerif-Italic.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "quicksand-bold";
-  src: url("../font/quicksand/quicksand-bold.ttf") format("truetype");
+  src: url("../assets/fonts/quicksand/quicksand-bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "quicksand-light";
-  src: url("../font/quicksand/quicksand-light.ttf") format("truetype");
+  src: url("../assets/fonts/quicksand/quicksand-light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "quicksand-medium";
-  src: url("../font/quicksand/quicksand-medium.ttf") format("truetype");
+  src: url("../assets/fonts/quicksand/quicksand-medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "quicksand-regular";
-  src: url("../font/quicksand/quicksand-regular.ttf") format("truetype");
+  src: url("../assets/fonts/quicksand/quicksand-regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "quicksand-semibold";
-  src: url("../font/quicksand/quicksand-semibold.ttf") format("truetype");
+  src: url("../assets/fonts/quicksand/quicksand-semibold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "sacramento";
-  src: url("../font/sacramento/sacramento.ttf") format("truetype");
+  src: url("../assets/fonts/sacramento/sacramento.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "the-seasons-reg";
-  src: url("../font/the-seasons/the-seasons-regular.ttf") format("truetype");
+  src: url("../assets/fonts/the-seasons/the-seasons-regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "the-seasons-bd";
-  src: url("../font/the-seasons/the-seasons-bold.ttf") format("truetype");
+  src: url("../assets/fonts/the-seasons/the-seasons-bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "the-seasons-italic";
-  src: url("../font/the-seasons/the-seasons-italic.ttf") format("truetype");
+  src: url("../assets/fonts/the-seasons/the-seasons-italic.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "the-seasons-light";
-  src: url("../font/the-seasons/the-seasons-light.ttf") format("truetype");
+  src: url("../assets/fonts/the-seasons/the-seasons-light.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "yeseva-one";
-  src: url("../font/yeseva-one/YesevaOne-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/yeseva-one/YesevaOne-Regular.ttf") format("truetype");
 }
