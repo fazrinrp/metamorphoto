@@ -43,7 +43,7 @@
 }
 
 .tombol:hover {
-  background-color: #6b4a6c; /* Change color on hover */
+  background-color: #987136; /* Change color on hover */
 }
 
 .tombol:active {
@@ -646,17 +646,17 @@ a {
 .gift-top-right {
   z-index: 0;
   position: absolute;
-  top: 5%;
-  right: -15%;
-  width: 40%;
+  top: -40px;
+  right: -10%;
+  width: 50%;
   margin: 0; /* Remove margin if not needed */
 }
 
 .gift-bottom-left {
   z-index: 0;
   position: absolute;
-  bottom: 4%;
-  left: -20%;
+  bottom: 0%;
+  left: -10%;
   width: 50%;
   margin: 0; /* Remove margin if not needed */
 }
@@ -690,13 +690,13 @@ a {
 }
 
 .giftcard {
-  background-color: rgba(128, 79, 117, 0.3); /* White with 50% transparency */
+  background-color: rgba(255, 255, 255, 0.6); /* White with 50% transparency */
   position: relative; /* Ensure the card is positioned relative to contain the text */
   text-align: center; /* Center-align text */
   margin: 0 auto; /* Center the card in its container */
   width: 90%;
   margin-bottom: 30px;
-  color: white;
+  color: #4a4d54;
   border-radius: 30px;
   padding-bottom: 20px; /* Add padding at the bottom */
 }
@@ -728,7 +728,7 @@ a {
   padding: 50px 0px;
   position: relative;
   overflow: hidden;
-  color: #4a4d54;
+  color: #ffffff;
 }
 
 .best-wishes {
