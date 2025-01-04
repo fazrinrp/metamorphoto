@@ -30,7 +30,7 @@ $tanggal_resepsi = "1";
 $bulan_resepsi = "Februari";
 $tahun_resepsi = "2025";
 
-$waktu_resepsi = "Pukul 10:00 - Selesai";
+$waktu_resepsi = "Pukul 10:00 - 14:00 WIB";
 $alamat_resepsi = "Gedung PTA Wisma Guna Baleendah ";
 $maps_resepsi = "https://maps.app.goo.gl/fcis8rtEh4E3E4xQA";
 

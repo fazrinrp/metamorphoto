@@ -9,12 +9,17 @@ $to = $_GET['to'] ?? 'Nama undangan';
 <html lang="en">
 
 <head>
+    <meta property="og:title" content="The Wedding of Silmi & Misbah" />
+    <meta property="og:description"
+        content="Dengan memohon Rahmat & Ridho Allah SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri pernikahan kami." />
+    <meta property="og:image" content="https://metamorphoto.web.id/silmi-misbah/img/gallery/gallery-portrait-3.jpg" />
+    <meta property="og:url" content="https://metamorphoto.web.id/silmi-misbah/" />
+    <title>Wedding Invitation</title>
+
     <link rel="icon" href="../img/icon/mp-icon64.png" type="image/png" sizes="64x64" />
     <link rel="icon" href="../img/icon/mp-icon128.png" type="image/png" sizes="128x128" />
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wedding Invitation</title>
     <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
     <script src="script.js?v=<?php echo time(); ?>"></script>
     <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet" />
@@ -73,89 +78,89 @@ $to = $_GET['to'] ?? 'Nama undangan';
 <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
 
 <script>
-    const unlockButton = document.getElementById("unlockButton");
-    const lockScreen = document.getElementById("lockScreen");
-    const mainContent = document.getElementById("mainContent");
-    const backgroundMusic = document.getElementById("backgroundMusic");
+const unlockButton = document.getElementById("unlockButton");
+const lockScreen = document.getElementById("lockScreen");
+const mainContent = document.getElementById("mainContent");
+const backgroundMusic = document.getElementById("backgroundMusic");
 
-    unlockButton.addEventListener("click", () => {
-        lockScreen.style.display = "none";
-        mainContent.style.display = "block";
+unlockButton.addEventListener("click", () => {
+    lockScreen.style.display = "none";
+    mainContent.style.display = "block";
 
-        // Play the song when the button is clicked
-        backgroundMusic.play();
-    });
+    // Play the song when the button is clicked
+    backgroundMusic.play();
+});
 </script>
 
 <script>
-    function disableScroll() {
-        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+function disableScroll() {
+    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
 
-        window.onscroll = function() {
-            window.scrollTo(scrollTop, scrollLeft);
-        };
-        rootElement.style.scrollBehavior = "auto";
-    }
+    window.onscroll = function() {
+        window.scrollTo(scrollTop, scrollLeft);
+    };
+    rootElement.style.scrollBehavior = "auto";
+}
 
-    function enableScroll() {
-        window.onscroll = function() {};
-        rootElement.style.scrollBehavior = "smooth";
-    }
+function enableScroll() {
+    window.onscroll = function() {};
+    rootElement.style.scrollBehavior = "smooth";
+}
 </script>
 
 <script>
-    simplyCountdown(".simply-countdown", {
-        year: <?php echo $countdown_year ?>, // required
-        month: <?php echo $countdown_month ?>, // required
-        day: <?php echo $countdown_day ?>, // required
-        hours: <?php echo $countdown_hours ?>, // Default is 0 [0-23] integer
-        words: {
-            //words displayed into the countdown
-            days: {
-                singular: "Hari",
-                plural: "Hari"
-            },
-            hours: {
-                singular: "Jam",
-                plural: "Jam"
-            },
-            minutes: {
-                singular: "Menit",
-                plural: "Menit"
-            },
-            seconds: {
-                singular: "Detik",
-                plural: "Detik"
-            },
+simplyCountdown(".simply-countdown", {
+    year: <?php echo $countdown_year ?>, // required
+    month: <?php echo $countdown_month ?>, // required
+    day: <?php echo $countdown_day ?>, // required
+    hours: <?php echo $countdown_hours ?>, // Default is 0 [0-23] integer
+    words: {
+        //words displayed into the countdown
+        days: {
+            singular: "Hari",
+            plural: "Hari"
         },
-    });
+        hours: {
+            singular: "Jam",
+            plural: "Jam"
+        },
+        minutes: {
+            singular: "Menit",
+            plural: "Menit"
+        },
+        seconds: {
+            singular: "Detik",
+            plural: "Detik"
+        },
+    },
+});
 </script>
 
 
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const popUpImages = document.querySelectorAll(
-            ".pop-up-img"); // Select all images with the class 'pop-up-img'
+document.addEventListener("DOMContentLoaded", function() {
+    const popUpImages = document.querySelectorAll(
+        ".pop-up-img"); // Select all images with the class 'pop-up-img'
 
-        // Create an intersection observer to detect when each image comes into view
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add(
-                            "pop-up"); // Add the 'pop-up' class to each image when it appears
-                    }
-                });
-            }, {
-                threshold: 0.1
-            } // Trigger when at least 10% of the image is visible
-        );
+    // Create an intersection observer to detect when each image comes into view
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add(
+                        "pop-up"); // Add the 'pop-up' class to each image when it appears
+                }
+            });
+        }, {
+            threshold: 0.1
+        } // Trigger when at least 10% of the image is visible
+    );
 
-        // Observe each image individually
-        popUpImages.forEach((img) => {
-            observer.observe(img);
-        });
+    // Observe each image individually
+    popUpImages.forEach((img) => {
+        observer.observe(img);
     });
+});
 </script>

@@ -369,7 +369,7 @@ a {
 }
 
 .icon {
-  width: 18px;
+  width: 16px;
   margin-right: 6px; /* Optional: Add space between icon and text */
 }
 
@@ -473,6 +473,10 @@ a {
 
 .maps {
   margin: 20px 0px 0px 0px;
+}
+
+.maps img {
+  padding: 0px;
 }
 
 /* -------------------------- RESEPSI ------------------------- */

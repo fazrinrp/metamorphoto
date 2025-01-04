@@ -13,7 +13,7 @@
             <h4><?php echo $tanggal_akad_nikah ?><br><?php echo $bulan_akad_nikah ?></h4>
             <h4><?php echo $tahun_akad_nikah ?></h4>
         </div>
-        <h4>PUKUL 09:00-10:00</h4>
+        <h4>PUKUL 09:00-10:00 WIB</h4>
         <h4>Lokasi:</h4>
         <p><?php echo $alamat_akad_nikah ?></p>
         <iframe
@@ -34,7 +34,7 @@
             <h4><?php echo $tanggal_akad_nikah ?><br><?php echo $bulan_akad_nikah ?></h4>
             <h4><?php echo $tahun_akad_nikah ?></h4>
         </div>
-        <h4>PUKUL 10:00-selesai</h4>
+        <h4>PUKUL 10:00-14:00 WIB</h4>
         <h4>Lokasi:</h4>
         <p><?php echo $alamat_akad_nikah ?></p>
         <iframe
