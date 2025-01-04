@@ -417,14 +417,18 @@ a {
   align-items: center; /* Center vertically */
 }
 
+.details-content {
+  width: 80%;
+}
+
 .details-card img {
-  width: 15%;
-  margin: 0;
-  padding: 0;
+  width: 12%;
+  padding-bottom: 10px;
 }
 
 .details-card h2 {
   margin: 0;
+  font-size: 32px;
 }
 
 .details-card p {
@@ -464,7 +468,7 @@ a {
 .lokasi p {
   margin: 0;
   margin-bottom: 10px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .maps {
