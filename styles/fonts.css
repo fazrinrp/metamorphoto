@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "alex-brush";
+  src: url("../assets/fonts/alex-brush/alex-brush.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "cormorant-garamond-light";
+  src: url("../assets/fonts/cormorant-garamond/CormorantGaramond-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "cormorant-garamond-reg";
+  src: url("../assets/fonts/cormorant-garamond/CormorantGaramond-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "cormorant-garamond-bold";
+  src: url("../assets/fonts/cormorant-garamond/CormorantGaramond-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "eyesome-script";
+  src: url("../assets/fonts/eyesome-script/eyesome-script.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "higuen-serif";
+  src: url("../assets/fonts/higuen/higuen-serif.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "kenao";
+  src: url("../assets/fonts/kenao/kenao.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lancelot";
+  src: url("../assets/fonts/lancelot/lancelot.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "parisienne";
+  src: url("../font/parisienne/parisienne.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "pt-serif-reg";
+  src: url("../font/pt-serif/PTSerif-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "pt-serif-bold";
+  src: url("../font/pt-serif/PTSerif-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "pt-serif-italic";
+  src: url("../font/pt-serif/PTSerif-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "quicksand-bold";
+  src: url("../font/quicksand/quicksand-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "quicksand-light";
+  src: url("../font/quicksand/quicksand-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "quicksand-medium";
+  src: url("../font/quicksand/quicksand-medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "quicksand-regular";
+  src: url("../font/quicksand/quicksand-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "quicksand-semibold";
+  src: url("../font/quicksand/quicksand-semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "sacramento";
+  src: url("../font/sacramento/sacramento.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "the-seasons-reg";
+  src: url("../font/the-seasons/the-seasons-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "the-seasons-bd";
+  src: url("../font/the-seasons/the-seasons-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "the-seasons-italic";
+  src: url("../font/the-seasons/the-seasons-italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "the-seasons-light";
+  src: url("../font/the-seasons/the-seasons-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "yeseva-one";
+  src: url("../font/yeseva-one/YesevaOne-Regular.ttf") format("truetype");
+}
