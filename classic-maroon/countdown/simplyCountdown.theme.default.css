@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "higuen-serif";
+  src: url("../font/higuen/higuen-serif.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "kenao";
+  src: url("../font/kenao/kenao.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lancelot";
+  src: url("../font/lancelot/lancelot.ttf") format("truetype");
+}
+
+@media (max-width: 768px) {
+  .simply-countdown > .simply-section {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    opacity: 1;
+  }
+}
+
+.simply-countdown {
+  overflow: hidden;
+  display: table;
+  font-family: "higuen-serif", serif; /* Default font for text */
+  margin: auto;
+  color: #f8f4ef;
+}
+
+.simply-countdown > .simply-section {
+  width: 30px;
+  height: 30px;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  opacity: 1;
+}
+
+.simply-countdown > .simply-section .simply-amount {
+  display: block;
+  text-align: center;
+  color: #f8f4ef;
+  font-family: "higuen-serif", serif; /* Font for numbers */
+  font-size: 2rem;
+}
+
+.simply-countdown > .simply-section .simply-word {
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+  color: #f8f4ef;
+  font-family: "higuen-serif", serif; /* Font for text */
+}

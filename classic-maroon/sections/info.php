@@ -1,0 +1,29 @@
+<section class="info">
+    <p class="pop-up-img">Dengan memohon Rahmat & Ridho Allah SWT, kami bermaksud mengundang
+        Bapak/Ibu/Saudara/i
+        untuk menghadiri pernikahan putra-putri kami:</p>
+    <div class="mempelai row justify-content-center">
+        <img src="img/prop/21.png" class="round-image-background" alt="Background Image" />
+        <img src="img/info/mempelai-wanita.jpg" class="pop-up-img round-image" alt="Round Image" />
+        <h1 class="pop-up-img"><?php echo $mempelai_wanita ?></h1>
+        <h2 class="pop-up-img"><?php echo $mempelai_wanita_long ?></h2>
+        <h4 class="pop-up-img">Putri dari<br />Bapak <?php echo $mempelai_wanita_bapak ?> & Ibu
+            <?php echo $mempelai_wanita_ibu ?></h4>
+        <div class="pop-up-img instagram">
+            <a href="<?php echo $mempelai_wanita_instagram ?>" target="_blank"><img src="img/instagram.png"
+                    alt="" /></a>
+        </div>
+    </div>
+
+    <div class="mempelai row justify-content-center">
+        <img src="img/prop/21.png" class="round-image-background" alt="Background Image" />
+        <img src="img/info/mempelai-pria.jpg" class="pop-up-img round-image" alt="Round Image" />
+        <h1 class="pop-up-img"><?php echo $mempelai_pria ?></h1>
+        <h2 class="pop-up-img"><?php echo $mempelai_pria_long ?></h2>
+        <h4 class="pop-up-img">Putra dari<br />Bapak <?php echo $mempelai_pria_bapak ?> & Ibu
+            <?php echo $mempelai_pria_ibu ?></h4>
+        <div class="pop-up-img instagram">
+            <a href="<?php echo $mempelai_pria_instagram ?>" target="_blank"><img src="img/instagram.png" alt="" /></a>
+        </div>
+    </div>
+</section>
