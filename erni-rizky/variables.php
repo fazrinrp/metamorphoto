@@ -14,12 +14,12 @@ $mempelai_pria_instagram = "https://www.instagram.com/rizky_wahyu22/";
 
 $tanggal_pernikahan = "13.04.2025";
 
-$tanggal_akad_nikah = "Minggu, 04 April 2025";
+$tanggal_akad_nikah = "Minggu, 13 April 2025";
 $waktu_akad_nikah = "Pukul 08:00 - 09:00 WIB";
 $alamat_akad_nikah = "Kp. Cipicung RT 03/RW 02 Kel. Baleendah Kec. Baleendah (Patokan Garasi Cahaya Ibu Momonggoran)";
 $maps_akad_nikah = "https://maps.app.goo.gl/12UKh9YfRNCTHPVo9";
 
-$tanggal_resepsi = "Minggu, 04 April 2025";
+$tanggal_resepsi = "Minggu, 13 April 2025";
 $waktu_resepsi = "Pukul 09:00 - Selesai";
 $alamat_resepsi = "Kp. Cipicung RT 03/RW 02 Kel. Baleendah Kec. Baleendah (Patokan Garasi Cahaya Ibu Momonggoran)";
 $maps_resepsi = "https://maps.app.goo.gl/12UKh9YfRNCTHPVo9";
