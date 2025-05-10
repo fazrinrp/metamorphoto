@@ -9,18 +9,12 @@ $to = $_GET['to'] ?? 'Nama undangan';
 <html lang="en">
 
 <head>
-    <meta property="og:title" content="The Wedding of Erni & Rizky" />
-    <meta property="og:description"
-        content="Dengan memohon Rahmat & Ridho Allah SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri pernikahan kami." />
-    <meta property="og:image" content="https://metamorphoto.web.id/erni-rizky/img/closing/closing-img.jpg" />
-    <meta property="og:url" content="https://metamorphoto.web.id/erni-rizky/" />
-
     <link rel="icon" href="../img/icon/mp-icon64.png" type="image/png" sizes="64x64" />
     <link rel="icon" href="../img/icon/mp-icon128.png" type="image/png" sizes="128x128" />
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Wedding of Erni & Rizky</title>
+    <title>Wedding Invitation</title>
     <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
     <script src="script.js?v=<?php echo time(); ?>"></script>
     <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet" />
@@ -35,12 +29,11 @@ $to = $_GET['to'] ?? 'Nama undangan';
 <body>
     <div class="lock-screen" id="lockScreen">
         <div class="lock-container">
-            <img src="img/prop/1.png" class="zoom-image header-top-left" alt="Top Left Image" />
-            <img src="img/prop/2.png" class="zoom-image header-bottom-right" alt="Bottom Right Image" />
             <div class="lock-screen-content">
                 <h4 class="pop-up-img">The Wedding of</h4>
                 <h1 class="pop-up-img">
-                    <?php echo $mempelai_wanita ?> & <?php echo $mempelai_pria ?>
+                    <?php echo $mempelai_wanita ?><br />
+                    <span class="and">& </span>Ichsal
                 </h1>
                 <h4 class="pop-up-img"><?php echo $tanggal_pernikahan ?></h4>
                 <div class="invite-to">
@@ -65,9 +58,14 @@ $to = $_GET['to'] ?? 'Nama undangan';
         <?php include("sections/gift.php") ?>
         <?php include("sections/wishes.php") ?>
         <?php include("sections/closing.php") ?>
+        <section class="closing2">
+            <div class="closing-img">
 
+            </div>
+        </section>
         <?php include("../section-general/footer.php") ?>
-    </div>
+
+
 </body>
 
 </html>
