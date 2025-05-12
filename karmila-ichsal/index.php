@@ -9,6 +9,13 @@ $to = $_GET['to'] ?? 'Nama undangan';
 <html lang="en">
 
 <head>
+    <meta property="og:title" content="The Wedding of Karmila & Ichsal" />
+    <meta property="og:description"
+        content="Dengan memohon Rahmat & Ridho Allah SWT, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri pernikahan kami." />
+    <meta property="og:image" content="https://metamorphoto.web.id/karmila-ichsal/img/gallery/gallery-portrait1.jpg" />
+    <meta property="og:url" content="https://metamorphoto.web.id/karmila-ichsal/" />
+
+
     <link rel="icon" href="../img/icon/mp-icon64.png" type="image/png" sizes="64x64" />
     <link rel="icon" href="../img/icon/mp-icon128.png" type="image/png" sizes="128x128" />
 
