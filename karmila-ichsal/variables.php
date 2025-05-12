@@ -11,19 +11,19 @@ $mempelai_pria = "Muhammad";
 $mempelai_pria_long = "Ichsal Fauzi";
 $mempelai_pria_bapak = "Ahmad Yani";
 $mempelai_pria_ibu = "Nining";
-$mempelai_pria_instagram = "https://www.instagram.com/metamorphoto22/";
+$mempelai_pria_instagram = "https://www.instagram.com/ichsalfauzi/";
 
 $tanggal_pernikahan = "08.06.2025";
 
 $tanggal_akad_nikah = "Minggu, 8 Juni 2025";
 $waktu_akad_nikah = "Pukul 09:00 - 10:00 WIB";
 $alamat_akad_nikah = "KJl. Kp. Legokloa No.107, Langonsari, Kec. Pameungpeuk, Kabupaten Bandung, Jawa Barat 40376";
-$maps_akad_nikah = "https://maps.app.goo.gl/wywgsbUopvK9YYYH6";
+$maps_akad_nikah = "https://maps.app.goo.gl/JnAVKYTHgYGjkZep6";
 
 $tanggal_resepsi = "Minggu, 8 Juni 2025";
 $waktu_resepsi = "Pukul 10:00 - Selesai";
 $alamat_resepsi = "Jl. Kp. Legokloa No.107, Langonsari, Kec. Pameungpeuk, Kabupaten Bandung, Jawa Barat 40376";
-$maps_resepsi = "https://maps.app.goo.gl/wywgsbUopvK9YYYH6";
+$maps_resepsi = "https://maps.app.goo.gl/JnAVKYTHgYGjkZep6";
 
 $countdown_year = 2025;
 $countdown_month = 6;
